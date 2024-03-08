@@ -400,6 +400,73 @@ public class yq {
         }
     }
 
+public void monet(Context context) {
+        boolean logcatEnabled = N.isDebugBuild && new BuildSettings(sc_id).getValue(
+                BuildSettings.SETTING_ENABLE_LOGCAT, BuildSettings.SETTING_GENERIC_VALUE_TRUE).equals(BuildSettings.SETTING_GENERIC_VALUE_TRUE);
+
+        String javaDir = FileUtil.getExternalStorageDir() + "/.sketchware/data/" + sc_id + "/files/java/";
+        if (!new File(javaDir, "DebugActivity.java").exists()) {
+            fileUtil.b(javaFilesPath + File.separator
+                            + packageNameAsFolders + File.separator
+                            + "DebugActivity.java",
+                    PACKAGE_PLACEHOLDER_PATTERN.matcher(fileUtil.b(
+                            context,
+                            "monet" + File.separator
+                                    + "DebugActivity.java"
+                    )).replaceAll(packageName));
+        }
+
+        String customApplicationClassName = new ProjectSettings(sc_id).getValue(ProjectSettings.SETTING_APPLICATION_CLASS,
+                ".SketchApplication");
+        boolean notUsingCustomApplicationClass = customApplicationClassName.equals(".SketchApplication");
+        if (!new File(javaDir, "SketchApplication.java").exists() && notUsingCustomApplicationClass) {
+            boolean applyMultiDex = projectSettings.getMinSdkVersion() < 21;
+
+            String sketchApplicationFileContent = PACKAGE_PLACEHOLDER_PATTERN.matcher(fileUtil.b(
+                    context,
+                    "monet" + File.separator + "SketchApplication.java"
+            )).replaceAll(packageName);
+            if (applyMultiDex) {
+                sketchApplicationFileContent = sketchApplicationFileContent.replaceAll(
+                        "Application \\{", "androidx.multidex.MultiDexApplication \\{");
+            }
+            if (logcatEnabled) {
+                sketchApplicationFileContent = sketchApplicationFileContent.replace(
+                        "super.onCreate();", "SketchLogger.startLogging();\n" +
+                                "        super.onCreate();").replace(
+                        "Process.killProcess(Process.myPid());",
+                        "SketchLogger.broadcastLog(Log.getStackTraceString(throwable));\n" +
+                                "                    Process.killProcess(Process.myPid());"
+                );
+            }
+
+            fileUtil.b(javaFilesPath + File.separator
+                            + packageNameAsFolders + File.separator
+                            + "SketchApplication.java",
+                    sketchApplicationFileContent);
+        }
+
+        if (logcatEnabled) {
+            if (!new File(javaDir, "SketchLogger.java").exists()) {
+                String sketchLoggerFileContent = PACKAGE_PLACEHOLDER_PATTERN.matcher(fileUtil.b(
+                        context,
+                        "monet" + File.separator
+                                + "SketchLogger.java"
+                )).replaceAll(packageName);
+
+                if (!notUsingCustomApplicationClass && customApplicationClassName.charAt(0) == '.') {
+                    sketchLoggerFileContent = sketchLoggerFileContent.replaceAll("SketchApplication\\.getContext\\(\\)",
+                            customApplicationClassName.substring(1) + ".getContext()");
+                }
+
+                fileUtil.b(javaFilesPath + File.separator
+                        + packageNameAsFolders + File.separator
+                        + "SketchLogger.java", sketchLoggerFileContent);
+            }
+        }
+    }
+
+    
     /**
      * Writes a project file to its correct location. Java files, for example, get saved to
      * <pre>
@@ -679,7 +746,7 @@ public class yq {
      * Get source code files that are viewable in SrcCodeViewer
      */
     public ArrayList<SrcCodeBean> a(hC projectFileManager, eC projectDataManager, BuiltInLibraryManager builtInLibraryManager) {
-        a(SketchApplication.getContext());
+        fua(SketchApplication.getContext());
         CommandBlock.x();
 
         final String javaDir = FileUtil.getExternalStorageDir() + "/.sketchware/data/" + sc_id + "/files/java/";
@@ -892,4 +959,11 @@ public class yq {
 
         return "";
     }
+public void fua(Context context) {
+  if(new BuildSettings(sc_id).getValue(BuildSettings.SETTING_ENABLE_MONET, BuildSettings.SETTING_GENERIC_VALUE_FALSE).equals(BuildSettings.SETTING_GENERIC_VALUE_FALSE)) {
+  a(SketchApplication.getContext());
+  } else {
+  monet(SketchApplication.getContext());
+  }
+ }
 }
