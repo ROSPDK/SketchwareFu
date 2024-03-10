@@ -28,7 +28,7 @@ public class PropertyMaterialSwitchSingleLineItem extends LinearLayout implement
     private View propertyMenuItem;
     private Kw valueChangeListener;
 
-    public PropertySwitchSingleLineItem(Context context, boolean z) {
+    public PropertyMaterialSwitchSingleLineItem(Context context, boolean z) {
         super(context);
         initialize(context, z);
     }
