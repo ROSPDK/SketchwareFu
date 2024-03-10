@@ -19,6 +19,7 @@ import com.besome.sketch.beans.LayoutBean;
 import com.besome.sketch.beans.ProjectFileBean;
 import com.besome.sketch.beans.ViewBean;
 import com.besome.sketch.editor.manage.image.ManageImageActivity;
+import mod.fufufu.editor.property.PropertyMaterialSwitchSingleLineItem;
 import com.sketchware.remod.R;
 
 import java.util.ArrayList;
@@ -467,10 +468,10 @@ public class ViewPropertyItems extends LinearLayout implements Kw, View.OnClickL
     }
 
     private void e(String key, int value) {
-        PropertySwitchSingleLineItem switchSingleLineItem = (PropertySwitchSingleLineItem) f.get(key);
+        PropertyMaterialSwitchSingleLineItem switchSingleLineItem = (PropertyMaterialSwitchSingleLineItem) f.get(key);
         boolean isEnabled = false;
         if (switchSingleLineItem == null) {
-            switchSingleLineItem = new PropertySwitchSingleLineItem(getContext(), !b);
+            switchSingleLineItem = new PropertyMaterialSwitchSingleLineItem(getContext(), !b);
             switchSingleLineItem.setOrientationItem(getOrientation());
             switchSingleLineItem.setKey(key);
             if (value == 1) {
@@ -704,7 +705,7 @@ public class ViewPropertyItems extends LinearLayout implements Kw, View.OnClickL
                 if (listview_item.getKey().equals("property_custom_view_listview")) {
                     bean.customView = listview_item.getValue();
                 }
-            } else if (view instanceof PropertySwitchSingleLineItem switchSingleLineItem) {
+            } else if (view instanceof PropertyMaterialSwitchSingleLineItem switchSingleLineItem) {
                 switch (switchSingleLineItem.getKey()) {
                     case "property_single_line" ->
                             bean.text.singleLine = switchSingleLineItem.getValue() ? 1 : 0;
