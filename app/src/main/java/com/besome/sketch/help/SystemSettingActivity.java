@@ -70,7 +70,7 @@ public class SystemSettingActivity extends BaseAppCompatActivity {
     private boolean saveSettings() {
         for (int i = 0; i < contentLayout.getChildCount(); i++) {
             View childAtView = contentLayout.getChildAt(i);
-            if (childAtView instanceof PropertySwitchItem) {
+            if (childAtView instanceof PropertyMaterialSwitchItem) {
                 PropertyMaterialSwitchItem propertySwitchItem = (PropertyMaterialSwitchItem) childAtView;
                 if (0 == propertySwitchItem.getKey()) {
                     preferenceEditor.putBoolean("P12I0", propertySwitchItem.getValue());
