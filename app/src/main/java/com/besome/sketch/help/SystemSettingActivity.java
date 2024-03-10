@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.widget.Toolbar;
 
-import com.besome.sketch.editor.property.PropertySwitchItem;
+import mod.fufufu.editor.property.PropertyMaterialSwitchItem;
 import com.besome.sketch.lib.base.BaseAppCompatActivity;
 import com.sketchware.remod.R;
 
@@ -23,7 +23,7 @@ public class SystemSettingActivity extends BaseAppCompatActivity {
     private SharedPreferences.Editor preferenceEditor;
 
     private void addPreference(int key, int resName, int resDescription, boolean value) {
-        PropertySwitchItem switchItem = new PropertySwitchItem(this);
+        PropertyMaterialSwitchItem switchItem = new PropertySwitchItem(this);
         switchItem.setKey(key);
         switchItem.setName(Helper.getResString(resName));
         switchItem.setDesc(Helper.getResString(resDescription));
