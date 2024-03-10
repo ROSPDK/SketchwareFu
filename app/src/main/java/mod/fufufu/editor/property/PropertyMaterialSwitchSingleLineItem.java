@@ -1,4 +1,4 @@
-package com.besome.sketch.editor.property;
+package mod.fufufu.editor.property;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
