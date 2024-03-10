@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.Switch;
+import com.google.android.material.materialswitch.MaterialSwitch;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -43,7 +43,7 @@ public class ManageAdmobActivity extends BaseAppCompatActivity implements View.O
     private DB A = null;
     private TestDeviceAdapter testDeviceAdapter;
     private ArrayList<AdTestDeviceBean> testDeviceList = new ArrayList<>();
-    private Switch libSwitch;
+    private MaterialSwitch libSwitch;
     private TextView tvBannerName;
     private TextView tvBannerId;
     private TextView tvInterName;
