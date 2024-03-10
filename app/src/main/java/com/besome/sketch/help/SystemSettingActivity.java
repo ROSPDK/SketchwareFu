@@ -23,7 +23,7 @@ public class SystemSettingActivity extends BaseAppCompatActivity {
     private SharedPreferences.Editor preferenceEditor;
 
     private void addPreference(int key, int resName, int resDescription, boolean value) {
-        PropertyMaterialSwitchItem switchItem = new PropertySwitchItem(this);
+        PropertyMaterialSwitchItem switchItem = new PropertyMaterialSwitchItem(this);
         switchItem.setKey(key);
         switchItem.setName(Helper.getResString(resName));
         switchItem.setDesc(Helper.getResString(resDescription));
@@ -71,7 +71,7 @@ public class SystemSettingActivity extends BaseAppCompatActivity {
         for (int i = 0; i < contentLayout.getChildCount(); i++) {
             View childAtView = contentLayout.getChildAt(i);
             if (childAtView instanceof PropertySwitchItem) {
-                PropertySwitchItem propertySwitchItem = (PropertySwitchItem) childAtView;
+                PropertyMaterialSwitchItem propertySwitchItem = (PropertyMaterialSwitchItem) childAtView;
                 if (0 == propertySwitchItem.getKey()) {
                     preferenceEditor.putBoolean("P12I0", propertySwitchItem.getValue());
                 } else if (1 == propertySwitchItem.getKey()) {
