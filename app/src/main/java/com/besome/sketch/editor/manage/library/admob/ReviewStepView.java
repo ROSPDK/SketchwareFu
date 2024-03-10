@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.Switch;
+import com.google.android.material.materialswitch.MaterialSwitch;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -29,7 +29,7 @@ import mod.hey.studios.util.Helper;
 
 public class ReviewStepView extends LinearLayout implements Uu {
 
-    private Switch adMobToggle;
+    private MaterialSwitch adMobToggle;
     private TextView bannerName;
     private TextView bannerId;
     private TextView interstitialName;
