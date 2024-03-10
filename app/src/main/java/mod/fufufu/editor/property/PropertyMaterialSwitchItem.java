@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.RelativeLayout;
-import android.widget.Switch;
+import com.google.android.material.materialswitch.MaterialSwitch;
 import android.widget.TextView;
 
 import com.sketchware.remod.R;
@@ -19,7 +19,7 @@ public class PropertyMaterialSwitchItem extends RelativeLayout implements View.O
     private TextView tvDesc;
     private MaterialSwitch switchValue;
 
-    public PropertySwitchItem(Context context) {
+    public PropertyMaterialSwitchItem(Context context) {
         super(context);
         initialize(context);
     }
