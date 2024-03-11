@@ -82,7 +82,7 @@ public class FirebaseActivity extends BaseAppCompatActivity implements View.OnCl
             step = mvVar;
         } else if (stepNumber == STEP_3) {
             openConsole.setVisibility(View.GONE);
-            private AdvancedFirebaseReviewStep kvVar = new AdvancedFirebaseReviewStep(this);
+            AdvancedFirebaseReviewStep kvVar = new AdvancedFirebaseReviewStep(this);
             stepContainer.addView(kvVar);
             kvVar.setData(firebaseSettings);
             step = kvVar;
