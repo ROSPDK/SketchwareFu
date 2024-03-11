@@ -38,7 +38,7 @@ binding = ManageAdvancedFirebasePreviewBinding.inflate(LayoutInflater.from(conte
   binding.layoutSwitch.setOnClickListener(view -> binding.libSwitch.setChecked(!binding.libSwitch.isChecked()));
         
 }
-    @Override
+
     public void a(ProjectLibraryBean projectLibraryBean) {
         if (binding.libSwitch.isChecked()) {
             projectLibraryBean.useYn = "Y";
@@ -47,17 +47,16 @@ binding = ManageAdvancedFirebasePreviewBinding.inflate(LayoutInflater.from(conte
         }
    }
 
-    @Override
     public String getDocUrl() {
         return "";
     }
 
-    @Override
+    
     public boolean isValid() {
         return true;
     }
 
-    @Override
+    
     public void setData(ProjectLibraryBean projectLibraryBean) {
     binding.tvProjectId.setText(projectLibraryBean.data);
         binding.tvAppId.setText(projectLibraryBean.reserved1);
