@@ -19,9 +19,10 @@ import a.a.a.wB;
 import com.sketchware.remod.R;
 import mod.hey.studios.util.Helper;
 
+public class AdvancedFirebaseReviewStep extends LinearLayout implements nv {
+
 private ManageAdvancedFirebasePreviewBinding binding;
 
-public class AdvancedFirebaseReviewStep extends LinearLayout implements nv {
 public AdvancedFirebaseReviewStep(Context context) {
         super(context);
         initialize(context);
