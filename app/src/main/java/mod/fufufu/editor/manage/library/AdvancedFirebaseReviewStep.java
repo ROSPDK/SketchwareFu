@@ -28,12 +28,12 @@ private void initialize(Context context) {
 binding = ManageAdvancedFirebasePreviewBinding.inflate(LayoutInflater.from(context), this, true);
         binding.getRoot();
         gB.b(this, 600, 200, null);
-  layoutSwitch.setOnClickListener(view -> libSwitch.setChecked(!libSwitch.isChecked()));
+  binding.layoutSwitch.setOnClickListener(view -> binding.libSwitch.setChecked(!binding.libSwitch.isChecked()));
         
 }
   @Override
     public void a(ProjectLibraryBean projectLibraryBean) {
-        if (libSwitch.isChecked()) {
+        if (binding.libSwitch.isChecked()) {
             projectLibraryBean.useYn = "Y";
         } else {
             projectLibraryBean.useYn = "N";
@@ -50,5 +50,10 @@ binding = ManageAdvancedFirebasePreviewBinding.inflate(LayoutInflater.from(conte
     }
     @Override
     public void setData(ProjectLibraryBean projectLibraryBean) {
+    binding.tvProjectId.setText(projectLibraryBean.data);
+        binding.tvAppId.setText(projectLibraryBean.reserved1);
+        binding.tvApiKey.setText(projectLibraryBean.reserved2);
+        binding.tvStorageUrl.setText(projectLibraryBean.reserved3);
+        binding.libSwitch.setChecked(true);
     }
 }
