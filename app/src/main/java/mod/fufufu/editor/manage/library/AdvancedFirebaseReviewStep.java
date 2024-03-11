@@ -27,8 +27,10 @@ public AdvancedFirebaseReviewStep(Context context) {
         super(context);
         initialize(context);
 }
+
 public void a() {
 }
+
 private void initialize(Context context) {
 binding = ManageAdvancedFirebasePreviewBinding.inflate(LayoutInflater.from(context), this, true);
         binding.getRoot();
@@ -36,7 +38,7 @@ binding = ManageAdvancedFirebasePreviewBinding.inflate(LayoutInflater.from(conte
   binding.layoutSwitch.setOnClickListener(view -> binding.libSwitch.setChecked(!binding.libSwitch.isChecked()));
         
 }
-  @Override
+    @Override
     public void a(ProjectLibraryBean projectLibraryBean) {
         if (binding.libSwitch.isChecked()) {
             projectLibraryBean.useYn = "Y";
@@ -44,6 +46,7 @@ binding = ManageAdvancedFirebasePreviewBinding.inflate(LayoutInflater.from(conte
             projectLibraryBean.useYn = "N";
         }
    }
+
     @Override
     public String getDocUrl() {
         return "";
@@ -53,6 +56,7 @@ binding = ManageAdvancedFirebasePreviewBinding.inflate(LayoutInflater.from(conte
     public boolean isValid() {
         return true;
     }
+
     @Override
     public void setData(ProjectLibraryBean projectLibraryBean) {
     binding.tvProjectId.setText(projectLibraryBean.data);
