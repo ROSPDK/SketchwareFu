@@ -27,7 +27,7 @@ public AdvancedFirebaseReviewStep(Context context) {
         super(context);
         initialize(context);
 }
-pubilc void a() {
+public void a() {
 }
 private void initialize(Context context) {
 binding = ManageAdvancedFirebasePreviewBinding.inflate(LayoutInflater.from(context), this, true);
