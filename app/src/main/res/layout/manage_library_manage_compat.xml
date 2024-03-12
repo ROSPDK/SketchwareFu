@@ -1,10 +1,32 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:fitsSystemWindows="true">
 
-    <include layout="@layout/toolbar" />
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/collapsingToolbarLayoutLargeSize"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:navigationIcon="@drawable/abc_ic_ab_back_material"
+                app:title="AppCompat & Design" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,13 +56,15 @@
                 android:textSize="14sp"
                 tools:text="@string/design_library_settings_title_enabled" />
 
-            <Switch
+            <com.google.android.material.materialswitch.MaterialSwitch
                 android:id="@+id/lib_switch"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginLeft="8dp"
-                android:clickable="false" />
+                android:clickable="false"
+                app:switchPadding="8dp"
+style="@style/Widget.Material3.CompoundButton.MaterialSwitch" />
         </LinearLayout>
 
         <LinearLayout
@@ -78,4 +102,4 @@
             android:textSize="12sp"
             tools:text="@string/design_library_message_slow_down_compilation_time" />
     </LinearLayout>
-</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
