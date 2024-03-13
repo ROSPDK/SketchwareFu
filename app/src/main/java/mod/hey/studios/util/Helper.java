@@ -23,11 +23,15 @@ import androidx.annotation.StringRes;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.gson.JsonParser;
+import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import a.a.a.xB;
 import mod.agus.jcoderz.lib.FileUtil;
@@ -41,6 +45,8 @@ public class Helper {
     public static final TypeToken<ArrayList<String>> TYPE_STRING = new TypeToken<>() {
     };
     public static final TypeToken<HashMap<String, String>> TYPE_STRING_MAP = new TypeToken<>() {
+    };
+    public static final TypeToken<List<Map<String, Object>>> TYPE_GENERIC_MAP_LIST = new TypeToken<>() {
     };
 
     private Helper() {
@@ -117,6 +123,15 @@ public class Helper {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
             }
         });
+    }
+    
+    public static boolean isJson(String content) {
+        try {
+            new JsonParser().parse(content);
+            return true;
+        } catch (JsonSyntaxException e) {
+            return false;
+        }
     }
 
     public interface BasicTextChangedListener {
