@@ -218,7 +218,7 @@ public class ManageXmlResourceActivity extends AppCompatActivity {
         var dialog = new aB(this);
         dialog.b(fileName + ".xml");
         dialog.a(ResourceXmlBean.getXmlIcon(resType));
-        dialog.b(Helper.getResString(R.string.common_word_close), Helper.getDialogDismissListener(dialog));
+        dialog.b(Helper.getResString(R.string.common_word_close), (d, which) -> Helper.getDialogDismissListener(d));
         var editor = new CodeEditor(this);
         editor.setTypefaceText(Typeface.MONOSPACE);
         editor.setEditable(false);
@@ -328,7 +328,7 @@ public class ManageXmlResourceActivity extends AppCompatActivity {
             d.dismiss();
         });
 
-        dialog.a(Helper.getResString(R.string.common_word_cancel), Helper.getDialogDismissListener(dialog));
+        dialog.a(Helper.getResString(R.string.common_word_cancel), (d, which) -> Helper.getDialogDismissListener(d));
         dialog.show();
     }
 
