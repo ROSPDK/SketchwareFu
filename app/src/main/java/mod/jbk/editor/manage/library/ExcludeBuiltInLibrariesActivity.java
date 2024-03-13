@@ -152,6 +152,23 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
         refreshPreview();
     }
 
+@Override
+public boolean onCreateOptionsMenu(Menu menu) {
+	
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.menu_exclude_builtin_libraries, menu);
+		return true;
+	}
+@Override	
+public boolean onOptionsItemSelected(MenuItem item) {
+	
+		int itemId = item.getItemId();
+		if (itemId == R.id.reset_menu_exclude_builtin_libraries) {
+            showResetDialog();
+        }
+		return true;
+	   }
+
     private void refreshPreview() {
         String libraries = excludedLibraries.stream()
                 .map(BuiltInLibraries.BuiltInLibrary::getName)
@@ -410,20 +427,5 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
             }
         }
     }
-@Override
-public boolean onCreateOptionsMenu(Menu menu) {
-	
-		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.menu_exclude_builtin_libraries, menu);
-		return true;
-	}
-@Override	
-public boolean onOptionsItemSelected(MenuItem item) {
-	
-		int itemId = item.getItemId();
-		if (itemId == R.id.reset_menu_exclude_builtin_libraries) {
-            showResetDialog();
-        }
-		return true;
-	   }
+
     }
