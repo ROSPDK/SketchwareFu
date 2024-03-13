@@ -148,7 +148,7 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
             excludedLibraries = savedInstanceState.getParcelableArrayList("excludedLibraryNames");
         }
 
-        enabled.setChecked(isExcludingEnabled);
+        binding.libSwitch.setChecked(isExcludingEnabled);
         refreshPreview();
     }
 
