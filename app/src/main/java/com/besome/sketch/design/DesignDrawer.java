@@ -217,7 +217,7 @@ public class DesignDrawer extends LinearLayout implements View.OnClickListener {
                         activity.toLogReader();
                         return;
                     case 23:
-                        designActivity.toXmlManager();
+                        activity.toXmlManager();
                         break;
                     case 2:
                     default:
