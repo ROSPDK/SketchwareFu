@@ -306,7 +306,7 @@ public boolean onOptionsItemSelected(MenuItem item) {
             d.dismiss();
             refreshPreview();
         });
-        d.show();
+        dialog.show();
     }
 
     private static class SaveConfigTask extends MA {
