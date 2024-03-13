@@ -343,7 +343,7 @@ public class ManageXmlResourceActivity extends AppCompatActivity {
             });
             zx.setAnimationStyle(R.anim.abc_fade_in);
             zx.showAtLocation(view, Gravity.CENTER, 0, 0);
-            dialog.hide();
+            dialog.dismiss();
         };
     }
 
