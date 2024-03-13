@@ -11,7 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.MenuInflater;
-import android.view.Menutem;
+import android.view.MenuItem;
+import android.view.Menu;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -157,15 +158,16 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
 @Override
 public boolean onCreateOptionsMenu(Menu menu) {
 	
-		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.menu_exclude_builtin_libraries, menu);
+		MenuItem menuitem1 = menu.add(Menu.NONE, 0, Menu.NONE, "Reset");
+menuitem1.setIcon(R.drawable.ic_restore_grey600_24dp);
+menuitem1.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 		return true;
 	}
 @Override	
 public boolean onOptionsItemSelected(MenuItem item) {
 	
 		int itemId = item.getItemId();
-		if (itemId == R.id.reset_menu_exclude_builtin_libraries) {
+		if (itemId == 0) {
             showResetDialog();
         }
 		return true;
