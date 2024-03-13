@@ -19,6 +19,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -334,16 +335,17 @@ public class ManageXmlResourceActivity extends AppCompatActivity {
 
     private View.OnClickListener showColorPickerDialog(aB dialog, EditText value) {
         return v -> {
-            var binding = ColorPickerBinding.inflate(getLayoutInflater());
+       AlertDialog alertDialog = dialog.create();   
+       var binding = ColorPickerBinding.inflate(getLayoutInflater());
             var view = binding.getRoot();
             var zx = new Zx(view, this, 0, true, false);
             zx.a(color -> {
-                if (dialog != null) dialog.show();
+                if (dialog != null) alertDialog.show();
                 value.setText(String.format("#%08X", color));
             });
             zx.setAnimationStyle(R.anim.abc_fade_in);
             zx.showAtLocation(view, Gravity.CENTER, 0, 0);
-            dialog.dismiss();
+            alertDialog.dismiss();
         };
     }
 
