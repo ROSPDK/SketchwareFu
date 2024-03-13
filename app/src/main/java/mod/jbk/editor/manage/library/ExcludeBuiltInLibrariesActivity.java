@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
-
+import androidx.activity.EdgeToEdge;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,6 +25,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.besome.sketch.lib.base.BaseAppCompatActivity;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.sketchware.remod.databinding.ManageLibraryExcludeBuiltinLibrariesBinding;
 import com.sketchware.remod.R;
 
 import java.io.File;
@@ -54,20 +55,21 @@ import mod.jbk.util.LogUtil;
 public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity implements View.OnClickListener {
     private static final String TAG = "ExcludeBuiltInLibraries";
 
-    private Switch enabled;
-    private TextView preview;
+    private ManageLibraryExcludeBuiltinLibrariesBinding binding;
     private String sc_id;
     private boolean isExcludingEnabled;
     private List<BuiltInLibraries.BuiltInLibrary> excludedLibraries;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        EdgeToEdge.enable(this);
         super.onCreate(savedInstanceState);
-        if (!isStoragePermissionGranted()) {
+        if (!j()) {
             finish();
             return;
         }
-        setContentView(R.layout.manage_library_exclude_builtin_libraries);
+        binding = ManageLibraryExcludeBuiltinLibrariesBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
         if (savedInstanceState == null) {
             sc_id = getIntent().getStringExtra("sc_id");
@@ -75,31 +77,39 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
             sc_id = savedInstanceState.getString("sc_id");
         }
 
-        TextView title = findViewById(R.id.tx_toolbar_title);
-        title.setText("Exclude built-in libraries");
-        ImageView back = findViewById(R.id.ig_toolbar_back);
-        back.setOnClickListener(Helper.getBackPressedClickListener(this));
-        Helper.applyRippleToToolbarView(back);
-        ImageView reset = findViewById(R.id.ig_toolbar_load_file);
-        reset.setImageResource(R.drawable.ic_restore_white);
-        reset.setVisibility(View.VISIBLE);
-        reset.setOnClickListener(this);
-        Helper.applyRippleToToolbarView(reset);
+        setSupportActionBar(binding.toolbar);
+        getSupportActionBar().setTitle("Excluded built-in libraries");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowTitleEnabled(true);
+        binding.toolbar.setNavigationOnClickListener(Helper.getBackPressedClickListener(this));
 
-        TextView enable = findViewById(R.id.tv_enable);
-        enable.setText(Helper.getResString(R.string.design_library_settings_title_enabled));
-        TextView warning = findViewById(R.id.tv_desc);
-        warning.setText("This might break your project if you don't know what you're doing!");
-        TextView label = findViewById(R.id.tv_title);
-        label.setText("Excluded built-in libraries");
+       public boolean onCreateOptionsMenu(Menu menu) {
+	
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.menu_exclude_builtin_libraries, menu);
+		return true;
+	}
+	
+	   public boolean onOptionsItemSelected(MenuItem item) {
+	
+		int itemId = item.getItemId();
+		if (itemId == R.id.reset_menu_exclude_builtin_libraries) {
+            showResetDialog();
+        }
+		return true;
+    }
+        
+    
+        binding.tvEnable.setText(Helper.getResString(R.string.design_library_settings_title_enabled));
+    
+        binding.tvWarning.setText("This might break your project if you don't know what you're doing!");
+    
+        binding.tvTitle.setText("Excluded built-in libraries");
 
-        LinearLayout excludedLibraries = findViewById(R.id.item);
-        excludedLibraries.setOnClickListener(this);
-        LinearLayout enabledContainer = findViewById(R.id.layout_switch);
-        enabledContainer.setOnClickListener(this);
-        enabled = findViewById(R.id.lib_switch);
-        enabled.setOnCheckedChangeListener((buttonView, isChecked) -> isExcludingEnabled = isChecked);
-        preview = findViewById(R.id.item_desc);
+        
+        binding.item.setOnClickListener(this);
+        binding.layoutSwitch.setOnClickListener(this);
+        binding.libSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> isExcludingEnabled = isChecked);
     }
 
     @Override
@@ -136,12 +146,10 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
     public void onClick(View v) {
         int id = v.getId();
 
-        if (id == R.id.item) {
+        if (id == binding.item.getId()) {
             showSelectBuiltInLibrariesDialog();
-        } else if (id == R.id.layout_switch) {
-            enabled.setChecked(!enabled.isChecked());
-        } else if (id == R.id.ig_toolbar_load_file) {
-            showResetDialog();
+        } else if (id == binding.layoutSwitch.getId()) {
+            binding.libSwitch.setChecked(!binding.libSwitch.isChecked());
         }
     }
 
@@ -167,7 +175,7 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
         if (libraries.isEmpty()) {
             libraries = "None selected. Tap here to configure.";
         }
-        preview.setText(libraries);
+        binding.itemDesc.setText(libraries);
     }
 
     private void showResetDialog() {
@@ -175,14 +183,14 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
         dialog.a(R.drawable.rollback_96);
         dialog.b(Helper.getResString(R.string.common_word_reset));
         dialog.a("Reset excluded built-in libraries? This action cannot be undone.");
-        dialog.b(Helper.getResString(R.string.common_word_reset), (d, which) -> {
+        dialog.b(Helper.getResString(R.string.common_word_reset), v -> {
             saveConfig(sc_id, false, Collections.emptyList());
             enabled.setChecked(false);
             excludedLibraries = Collections.emptyList();
             refreshPreview();
-            d.dismiss();
+            dialog.dismiss();
         });
-        dialog.a(Helper.getResString(R.string.common_word_cancel), (d, which) -> Helper.getDialogDismissListener(d));
+        dialog.a(Helper.getResString(R.string.common_word_cancel), Helper.getDialogDismissListener(dialog));
         dialog.show();
     }
 
@@ -291,10 +299,10 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
         adapter.setHasStableIds(true);
         list.setAdapter(adapter);
         dialog.a(list);
-        dialog.a(Helper.getResString(R.string.common_word_cancel), (d, which) -> Helper.getDialogDismissListener(d));
-        dialog.b(Helper.getResString(R.string.common_word_save), (d, which) -> {
+        dialog.a(Helper.getResString(R.string.common_word_cancel), Helper.getDialogDismissListener(dialog));
+        dialog.b(Helper.getResString(R.string.common_word_save), v -> {
             excludedLibraries = adapter.getSelectedBuiltInLibraries();
-            d.dismiss();
+            dialog.dismiss();
             refreshPreview();
         });
         dialog.show();
