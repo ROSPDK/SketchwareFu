@@ -10,6 +10,8 @@ import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.MenuInflater;
+import android.view.Menutem;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -186,7 +188,7 @@ public boolean onOptionsItemSelected(MenuItem item) {
         dialog.a("Reset excluded built-in libraries? This action cannot be undone.");
         dialog.b(Helper.getResString(R.string.common_word_reset), (d, which) -> {
             saveConfig(sc_id, false, Collections.emptyList());
-            enabled.setChecked(false);
+            binding.libSwitch.setChecked(false);
             excludedLibraries = Collections.emptyList();
             refreshPreview();
             d.dismiss();
