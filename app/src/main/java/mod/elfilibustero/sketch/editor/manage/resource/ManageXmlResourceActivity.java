@@ -266,7 +266,7 @@ public class ManageXmlResourceActivity extends AppCompatActivity {
         if (_translatable != null) check.setChecked(!_translatable);
 
         dialog.a(binding.getRoot());
-        dialog.b(Helper.getResString(R.string.common_word_save), v -> {
+        dialog.b(Helper.getResString(R.string.common_word_save), (d, which) -> {
             String inputName = name.getText().toString();
             String inputValue = value.getText().toString();
             boolean translatable = !check.isChecked();
@@ -325,7 +325,7 @@ public class ManageXmlResourceActivity extends AppCompatActivity {
 
             }
             save(new Gson().toJson(resources), resourcePath);
-            dialog.dismiss();
+            d.dismiss();
         });
 
         dialog.a(Helper.getResString(R.string.common_word_cancel), Helper.getDialogDismissListener(dialog));
