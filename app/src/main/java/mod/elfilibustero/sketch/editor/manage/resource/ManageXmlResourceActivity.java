@@ -332,7 +332,7 @@ public class ManageXmlResourceActivity extends AppCompatActivity {
         dialog.show();
     }
 
-    private View.OnClickListener showColorPickerDialog(Dialog dialog, EditText value) {
+    private View.OnClickListener showColorPickerDialog(aB dialog, EditText value) {
         return v -> {
             var binding = ColorPickerBinding.inflate(getLayoutInflater());
             var view = binding.getRoot();
