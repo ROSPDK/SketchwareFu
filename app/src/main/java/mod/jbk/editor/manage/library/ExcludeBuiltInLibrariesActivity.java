@@ -89,7 +89,7 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
     
         binding.tvEnable.setText(Helper.getResString(R.string.design_library_settings_title_enabled));
     
-        binding.tvWarning.setText("This might break your project if you don't know what you're doing!");
+        binding.tvDesc.setText("This might break your project if you don't know what you're doing!");
     
         binding.tvTitle.setText("Excluded built-in libraries");
 
