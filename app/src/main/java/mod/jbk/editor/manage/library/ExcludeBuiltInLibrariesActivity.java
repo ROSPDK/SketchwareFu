@@ -82,22 +82,6 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(true);
         binding.toolbar.setNavigationOnClickListener(Helper.getBackPressedClickListener(this));
-
-       public boolean onCreateOptionsMenu(Menu menu) {
-	
-		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.menu_exclude_builtin_libraries, menu);
-		return true;
-	}
-	
-	   public boolean onOptionsItemSelected(MenuItem item) {
-	
-		int itemId = item.getItemId();
-		if (itemId == R.id.reset_menu_exclude_builtin_libraries) {
-            showResetDialog();
-        }
-		return true;
-    }
         
     
         binding.tvEnable.setText(Helper.getResString(R.string.design_library_settings_title_enabled));
@@ -426,4 +410,20 @@ public class ExcludeBuiltInLibrariesActivity extends BaseAppCompatActivity imple
             }
         }
     }
-}
+@Override
+public boolean onCreateOptionsMenu(Menu menu) {
+	
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.menu_exclude_builtin_libraries, menu);
+		return true;
+	}
+@Override	
+public boolean onOptionsItemSelected(MenuItem item) {
+	
+		int itemId = item.getItemId();
+		if (itemId == R.id.reset_menu_exclude_builtin_libraries) {
+            showResetDialog();
+        }
+		return true;
+	   }
+    }
