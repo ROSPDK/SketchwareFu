@@ -16,7 +16,7 @@ import android.view.animation.OvershootInterpolator;
 import android.widget.Button;
 import android.widget.PopupMenu;
 import android.widget.Toast;
-
+import androidx.activity.OnBackPressedCallback;
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -110,6 +110,15 @@ public class ManageJavaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final OnBackPressedCallback callback = new OnBackPressedCallback(!Objects.equals(Uri.parse(current_path).getPath(), Uri.parse(fpu.getPathJava(sc_id)).getPath())) {
+            @Override
+            public void handleOnBackPressed() {
+                if (!Objects.equals(Uri.parse(current_path).getPath(), Uri.parse(fpu.getPathJava(sc_id)).getPath())) {
+            current_path = current_path.substring(0, current_path.lastIndexOf("/"));
+            refresh();
+        }
+    }
+};
         EdgeToEdge.enable(this);
         super.onCreate(savedInstanceState);
         binding = ManageFileBinding.inflate(getLayoutInflater());
@@ -122,18 +131,7 @@ public class ManageJavaActivity extends AppCompatActivity {
         fpu = new FilePathUtil();
         current_path = Uri.parse(fpu.getPathJava(sc_id)).getPath();
         refresh();
-    }
-
-    @Override
-    public void onBackPressed() {
-        if (Objects.equals(
-                Uri.parse(current_path).getPath(),
-                Uri.parse(fpu.getPathJava(sc_id)).getPath())) {
-            super.onBackPressed();
-        } else {
-            current_path = current_path.substring(0, current_path.lastIndexOf("/"));
-            refresh();
-        }
+        getOnBackPressedDispatcher().addCallback(this, callback);
     }
 
     private void setupUI() {
