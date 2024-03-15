@@ -131,8 +131,7 @@ callback.setEnabled(!Objects.equals(Uri.parse(current_path).getPath(), Uri.parse
         frc = new FileResConfig(sc_id);
         fpu = new FilePathUtil();
         current_path = Uri.parse(fpu.getPathJava(sc_id)).getPath();
-        refresh();
-       callback.setEnabled(!Objects.equals(Uri.parse(current_path).getPath(), Uri.parse(fpu.getPathJava(sc_id)).getPath())); getOnBackPressedDispatcher().addCallback(this, callback);
+        refresh(); getOnBackPressedDispatcher().addCallback(this, callback);
     }
 
     private void setupUI() {
