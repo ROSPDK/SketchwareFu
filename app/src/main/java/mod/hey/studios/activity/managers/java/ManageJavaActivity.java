@@ -115,6 +115,7 @@ public class ManageJavaActivity extends AppCompatActivity {
             public void handleOnBackPressed() {
                 if (!Objects.equals(Uri.parse(current_path).getPath(), Uri.parse(fpu.getPathJava(sc_id)).getPath())) {
             current_path = current_path.substring(0, current_path.lastIndexOf("/"));
+callback.setEnabled(!Objects.equals(Uri.parse(current_path).getPath(), Uri.parse(fpu.getPathJava(sc_id)).getPath()));
             refresh();
         }
     }
@@ -131,7 +132,7 @@ public class ManageJavaActivity extends AppCompatActivity {
         fpu = new FilePathUtil();
         current_path = Uri.parse(fpu.getPathJava(sc_id)).getPath();
         refresh();
-        getOnBackPressedDispatcher().addCallback(this, callback);
+       callback.setEnabled(!Objects.equals(Uri.parse(current_path).getPath(), Uri.parse(fpu.getPathJava(sc_id)).getPath())); getOnBackPressedDispatcher().addCallback(this, callback);
     }
 
     private void setupUI() {
