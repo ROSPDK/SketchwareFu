@@ -113,11 +113,11 @@ public class ManageJavaActivity extends AppCompatActivity {
         final OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
-        if (!Objects.equals(Uri.parse(current_path).getPath(), Uri.parse(fpu.getPathJava(sc_id)).getPath())) {
-            current_path = current_path.substring(0, current_path.lastIndexOf("/"));
-            refresh();
-        } else {
+        if (Objects.equals(Uri.parse(current_path).getPath(), Uri.parse(fpu.getPathJava(sc_id)).getPath())) {
         finish();
+        } else {
+        current_path = current_path.substring(0, current_path.lastIndexOf("/"));
+            refresh();
         }
     }
 };
