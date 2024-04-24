@@ -1234,10 +1234,7 @@ public class DesignActivity extends BaseAppCompatActivity implements OnClickList
             activity.get().loadProject(savedInstanceState != null);
         }
 
-        @Override
-        protected String doInBackground(Void... voids) {
-            return a(voids);
-        }
+ 
     }
 
     private static class DiscardChangesProjectCloser extends MA {
