@@ -1173,10 +1173,6 @@ public class DesignActivity extends BaseAppCompatActivity implements OnClickList
             dismiss();
         }
 
-        @Override
-        protected String doInBackground(Void... voids) {
-            return a(voids);
-        }
 
         @Override
         public void onPreExecute() {
