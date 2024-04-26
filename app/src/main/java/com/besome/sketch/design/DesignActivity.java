@@ -587,7 +587,7 @@ public class DesignActivity extends BaseAppCompatActivity implements OnClickList
             }
         });
         dialog.configureDefaultButton(Helper.getResString(R.string.common_word_cancel),
-                v -> Helper.getDialogDismissListener(dialog));
+                Helper.getDialogDismissListener(dialog));
         dialog.show();
     }
 
@@ -600,7 +600,7 @@ public class DesignActivity extends BaseAppCompatActivity implements OnClickList
         dialog.a(R.drawable.break_warning_96_red);
         dialog.a(Helper.getResString(R.string.common_message_insufficient_storage_space));
         dialog.b(Helper.getResString(R.string.common_word_ok),
-                v -> Helper.getDialogDismissListener(dialog));
+                Helper.getDialogDismissListener(dialog));
         dialog.show();
     }
 
@@ -1081,7 +1081,7 @@ public class DesignActivity extends BaseAppCompatActivity implements OnClickList
                                     "Put the correct file back to " + e.getMissingFile().getAbsolutePath() +
                                     " and try building again.");
                         }
-                        dialog.b("Dismiss", v -> Helper.getDialogDismissListener(dialog));
+                        dialog.b("Dismiss", Helper.getDialogDismissListener(dialog));
                         dialog.show();
                     });
                 } catch (Throwable tr) {
