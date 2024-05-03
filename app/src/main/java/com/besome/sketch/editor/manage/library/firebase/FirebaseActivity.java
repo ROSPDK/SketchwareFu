@@ -23,7 +23,7 @@ import a.a.a.GB;
 import a.a.a.aB;
 import a.a.a.bB;
 import a.a.a.iC;
-import mod.fufufu.editor.manage.library.AdvancedFirebaseReviewStep;
+import a.a.a.kvModded;
 import a.a.a.lv;
 import a.a.a.mB;
 import a.a.a.mv;
@@ -82,7 +82,7 @@ public class FirebaseActivity extends BaseAppCompatActivity implements View.OnCl
             step = mvVar;
         } else if (stepNumber == STEP_3) {
             openConsole.setVisibility(View.GONE);
-            AdvancedFirebaseReviewStep kvVar = new AdvancedFirebaseReviewStep(this);
+            kvModded kvVar = new AdvancedFirebaseReviewStep(this);
             stepContainer.addView(kvVar);
             kvVar.setData(firebaseSettings);
             step = kvVar;
