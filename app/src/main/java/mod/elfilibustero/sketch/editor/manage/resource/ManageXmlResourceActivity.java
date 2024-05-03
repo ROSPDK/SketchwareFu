@@ -19,7 +19,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -219,7 +218,7 @@ public class ManageXmlResourceActivity extends AppCompatActivity {
         var dialog = new aB(this);
         dialog.b(fileName + ".xml");
         dialog.a(ResourceXmlBean.getXmlIcon(resType));
-        dialog.b(Helper.getResString(R.string.common_word_close), (d, which) -> Helper.getDialogDismissListener(d));
+        dialog.b(Helper.getResString(R.string.common_word_close), Helper.getDialogDismissListener(dialog));
         var editor = new CodeEditor(this);
         editor.setTypefaceText(Typeface.MONOSPACE);
         editor.setEditable(false);
@@ -267,7 +266,7 @@ public class ManageXmlResourceActivity extends AppCompatActivity {
         if (_translatable != null) check.setChecked(!_translatable);
 
         dialog.a(binding.getRoot());
-        dialog.b(Helper.getResString(R.string.common_word_save), (d, which) -> {
+        dialog.b(Helper.getResString(R.string.common_word_save), v -> {
             String inputName = name.getText().toString();
             String inputValue = value.getText().toString();
             boolean translatable = !check.isChecked();
@@ -326,26 +325,25 @@ public class ManageXmlResourceActivity extends AppCompatActivity {
 
             }
             save(new Gson().toJson(resources), resourcePath);
-            d.dismiss();
+            dialog.dismiss();
         });
 
-        dialog.a(Helper.getResString(R.string.common_word_cancel), (d, which) -> Helper.getDialogDismissListener(d));
+        dialog.a(Helper.getResString(R.string.common_word_cancel), Helper.getDialogDismissListener(dialog));
         dialog.show();
     }
 
-    private View.OnClickListener showColorPickerDialog(aB dialog, EditText value) {
+    private View.OnClickListener showColorPickerDialog(Dialog dialog, EditText value) {
         return v -> {
-       AlertDialog alertDialog = dialog.create();   
-       var binding = ColorPickerBinding.inflate(getLayoutInflater());
+            var binding = ColorPickerBinding.inflate(getLayoutInflater());
             var view = binding.getRoot();
             var zx = new Zx(view, this, 0, true, false);
             zx.a(color -> {
-                if (dialog != null) alertDialog.show();
+                if (dialog != null) dialog.show();
                 value.setText(String.format("#%08X", color));
             });
             zx.setAnimationStyle(R.anim.abc_fade_in);
             zx.showAtLocation(view, Gravity.CENTER, 0, 0);
-            alertDialog.dismiss();
+            dialog.hide();
         };
     }
 
