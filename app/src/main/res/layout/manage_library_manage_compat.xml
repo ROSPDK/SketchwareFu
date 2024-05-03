@@ -87,7 +87,6 @@ style="@style/Widget.Material3.CompoundButton.MaterialSwitch" />
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
-                android:textColor="#ff757575"
                 android:textSize="14sp"
                 tools:text="@string/design_library_appcompat_description" />
         </LinearLayout>
