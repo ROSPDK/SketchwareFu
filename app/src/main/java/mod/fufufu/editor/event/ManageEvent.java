@@ -86,7 +86,6 @@ public class ManageEvent {
 
     public static String f(String targetId, String eventName, String eventLogic) {
         String code;
-        eventLogic + "\r\n";
         switch (eventName) {
             case "onStartSliderTouch":
             return "@Override\r\n" +
