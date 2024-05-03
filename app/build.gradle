@@ -10,7 +10,7 @@ if (analyticsEnabled) {
 }
 
 android {
-    compileSdk 34
+    compileSdkPreview "VanillaIceCream"
 
     def gitCommitHash = "git rev-parse HEAD".execute().text.trim()
 
