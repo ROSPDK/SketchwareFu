@@ -36,7 +36,10 @@ private ManageLibraryFirebasePreviewModdedBinding binding;
         binding.getRoot();
         gB.b(this, 600, 200, null);
         binding.layoutSwitch.setOnClickListener(view -> binding.libSwitch.setChecked(!binding.libSwitch.isChecked()));
-        
+        binding.tvTitleProjectId.setText(Helper.getResString(R.string.design_library_firebase_title_project_id));
+        binding.tvTitleAppId.setText(Helper.getResString(R.string.design_library_firebase_title_app_id));
+        binding.tvTitleApiKey.setText(Helper.getResString(R.string.design_library_firebase_title_api_key));
+        binding.tvTitleStorageUrl.setText(Helper.getResString(R.string.design_library_firebase_title_storage_bucket_url));
     }
 
    public void a(ProjectLibraryBean projectLibraryBean) {
