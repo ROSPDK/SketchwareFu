@@ -88,6 +88,11 @@ import mod.agus.jcoderz.editor.view.item.ItemRatingBar;
 import mod.agus.jcoderz.editor.view.item.ItemSearchView;
 import mod.agus.jcoderz.editor.view.item.ItemTimePicker;
 import mod.agus.jcoderz.editor.view.item.ItemVideoView;
+import mod.fufufu.editor.view.item.ItemMaterialChip;
+import mod.fufufu.editor.view.item.ItemMaterialExtendedFab;
+import mod.fufufu.editor.view.item.ItemMaterialFab;
+import mod.fufufu.editor.view.item.ItemMaterialSlider;
+import mod.fufufu.editor.view.item.ItemMaterialSwitch;
 import mod.hey.studios.util.ProjectFile;
 
 @SuppressLint({"RtlHardcoded", "DiscouragedApi"})
@@ -274,7 +279,12 @@ public class ViewPane extends RelativeLayout {
             case ViewBeans.VIEW_TYPE_WIDGET_OTPVIEW -> new ItemOTPView(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_CODEVIEW -> new ItemCodeView(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_RECYCLERVIEW -> new ItemRecyclerView(getContext());
-            default -> null;
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_CHIP -> new ItemMaterialChip(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_EXTENDED_FAB -> new ItemMaterialExtendedFab(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_FAB -> new ItemMaterialFab(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_SLIDER -> new ItemMaterialSlider(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_SWITCH -> new ItemMaterialSwitch(getContext());
+           default -> null;
         };
         item.setId(++b);
         item.setTag(viewBean.id);
