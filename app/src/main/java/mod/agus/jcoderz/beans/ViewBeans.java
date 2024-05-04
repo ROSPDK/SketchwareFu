@@ -33,7 +33,7 @@ public class ViewBeans {
     public static final int VIEW_TYPE_LAYOUT_SWIPEREFRESHLAYOUT = 42;
     public static final int VIEW_TYPE_LAYOUT_RADIOGROUP = 43;
     public static final int VIEW_TYPE_WIDGET_MATERIALBUTTON = 44;
-public static final int VIEW_TYPE_WIDGET_MATERIALCARDVIEW = 45;    
+    public static final int VIEW_TYPE_WIDGET_MATERIALCARDVIEW = 45;    
     public static final int VIEW_TYPE_WIDGET_MATERIALCHIP = 46;
     public static final int VIEW_TYPE_WIDGET_MATERIALCHIPGROUP = 47;
     public static final int VIEW_TYPE_WIDGET_MATERIALSLIDER = 48;
