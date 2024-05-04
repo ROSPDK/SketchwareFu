@@ -260,6 +260,8 @@ public class ViewPane extends RelativeLayout {
             case ViewBeans.VIEW_TYPE_WIDGET_DATEPICKER -> new ItemDatePicker(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_TIMEPICKER -> new ItemTimePicker(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_DIGITALCLOCK -> new ItemDigitalClock(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_EXTENDEDFAB -> new ItemMaterialExtendedFab(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_FAB -> new ItemMaterialFab(getContext());
             case ViewBeans.VIEW_TYPE_LAYOUT_TABLAYOUT -> new ItemTabLayout(getContext());
             case ViewBeans.VIEW_TYPE_LAYOUT_VIEWPAGER -> new ItemViewPager(getContext());
             case ViewBeans.VIEW_TYPE_LAYOUT_BOTTOMNAVIGATIONVIEW ->
@@ -269,6 +271,9 @@ public class ViewPane extends RelativeLayout {
                     new ItemPatternLockView(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_WAVESIDEBAR -> new ItemWaveSideBar(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_MATERIALBUTTON -> new ItemMaterialButton(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIALCHIP -> new ItemMaterialChip(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIALSLIDER -> new ItemMaterialSlider(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIALSWITCH -> new ItemMaterialSwitch(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_SIGNINBUTTON -> new ItemSignInButton(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_CIRCLEIMAGEVIEW ->
                     new ItemCircleImageView(getContext());
@@ -279,11 +284,6 @@ public class ViewPane extends RelativeLayout {
             case ViewBeans.VIEW_TYPE_WIDGET_OTPVIEW -> new ItemOTPView(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_CODEVIEW -> new ItemCodeView(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_RECYCLERVIEW -> new ItemRecyclerView(getContext());
-            case ViewBeans.VIEW_TYPE_WIDGET_MATERIALCHIP -> new ItemMaterialChip(getContext());
-            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_EXTENDEDFAB -> new ItemMaterialExtendedFab(getContext());
-            case ViewBeans.VIEW_TYPE_WIDGET_FAB -> new ItemMaterialFab(getContext());
-            case ViewBeans.VIEW_TYPE_WIDGET_MATERIALSLIDER -> new ItemMaterialSlider(getContext());
-            case ViewBeans.VIEW_TYPE_WIDGET_MATERIALSWITCH -> new ItemMaterialSwitch(getContext());
            default -> null;
         };
         item.setId(++b);
