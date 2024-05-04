@@ -279,11 +279,11 @@ public class ViewPane extends RelativeLayout {
             case ViewBeans.VIEW_TYPE_WIDGET_OTPVIEW -> new ItemOTPView(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_CODEVIEW -> new ItemCodeView(getContext());
             case ViewBeans.VIEW_TYPE_WIDGET_RECYCLERVIEW -> new ItemRecyclerView(getContext());
-            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_CHIP -> new ItemMaterialChip(getContext());
-            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_EXTENDED_FAB -> new ItemMaterialExtendedFab(getContext());
-            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_FAB -> new ItemMaterialFab(getContext());
-            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_SLIDER -> new ItemMaterialSlider(getContext());
-            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_SWITCH -> new ItemMaterialSwitch(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIALCHIP -> new ItemMaterialChip(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIAL_EXTENDEDFAB -> new ItemMaterialExtendedFab(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_FAB -> new ItemMaterialFab(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIALSLIDER -> new ItemMaterialSlider(getContext());
+            case ViewBeans.VIEW_TYPE_WIDGET_MATERIALSWITCH -> new ItemMaterialSwitch(getContext());
            default -> null;
         };
         item.setId(++b);
