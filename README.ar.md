@@ -4,7 +4,7 @@
 
 # برنامج سكيتش وير برو
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 مرحبًا بك في Sketchware Pro! ستجد هنا الكود المصدري للعديد من الفئات في Sketchware Pro، والأهم من ذلك، المكان المناسب للمساهمة في Sketchware Pro.
 
@@ -88,4 +88,4 @@
 
 لا نسمح بنشر Sketchware Pro كما هو، أو مع بعض التعديلات، على متجر Play أو في أي متجر تطبيقات آخر. ضع في اعتبارك أن هذا المشروع لا يزال تعديلاً. يعتبر التعديل غير المصرح به للتطبيقات غير قانوني ونحن لا نشجع مثل هذا السلوك.
 
-نحن نحب Sketchware كثيرًا ونشعر بالامتنان لمطوري Sketchware لإنشاء مثل هذا التطبيق المذهل. ومع ذلك، لم نتلق تحديثات لفترة طويلة. ولهذا السبب قررنا إبقاء Sketchware على قيد الحياة من خلال إنشاء هذا التعديل، وهو مجاني تمامًا. نحن لا نطلب أي أموال :)
+نحن نحب Sketchware كثيرًا ونشعر بالامتنان لمطوري Sketchware لإنشاء مثل هذا التطبيق المذهل. ومع ذلك، لم نتلق تحديثات لفترة طويلة. لهذا السبب قررنا إبقاء Sketchware على قيد الحياة من خلال إنشاء هذا التعديل، وهو مجاني تمامًا. نحن لا نطلب أي أموال :)
