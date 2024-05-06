@@ -4,7 +4,7 @@
 
 # Sketchware Pro
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 Bem-vindo ao Sketchware Pro! Aqui você encontrará o código-fonte de muitas classes do Sketchware Pro e, o mais importante, o local para contribuir com o Sketchware Pro.
 
@@ -26,13 +26,13 @@ Para selecionar a variante de build apropriada no Android Studio, use a guia Bui
 | `a.a.a.ProjectBuilder` | Auxiliar para compilar um projeto inteiro                    |
 | `a.a.a.Ix`             | Responsável por gerar AndroidManifest.xml                    |
 | `a.a.a.Jx`             | Gera código fonte das atividades                             |
-| `a.a.a.Lx`             | Generates source code of components, such as listeners, etc. |
+| `a.a.a.Lx`             | Gera código-fonte de componentes, como ouvintes, etc.        |
 | `a.a.a.Ox`             | Responsável por gerar arquivos XML de layouts                |
 | `a.a.a.qq`             | Registro de dependências de bibliotecas integradas           |
 | `a.a.a.tq`             | Responsável pelos questionários do diálogo de compilação     |
 | `a.a.a.yq`             | Organiza os caminhos dos arquivos dos projetos do Sketchware |
 
-> [!TIP]Você também pode verificar o`mod`pacote, que contém a maioria das alterações dos contribuidores.
+> [!DICA]Você também pode verificar o`mod`pacote, que contém a maioria das alterações dos contribuidores.
 
 ## Contribuindo
 
@@ -40,7 +40,7 @@ Se você gostaria de contribuir com o Sketchware Pro, siga estas etapas:
 
 1.  Bifurque este repositório.
 2.  Faça alterações em seu repositório bifurcado.
-3.  Teste essas mudanças.
+3.  Test out those changes.
 4.  Crie uma solicitação pull neste repositório.
 5.  Sua solicitação pull será revisada pelos membros do repositório e mesclada se for aceita.
 
@@ -52,13 +52,13 @@ A maioria das alterações relacionadas à interface do usuário (componentes qu
 
 > [!OBSERVAÇÃO]Enquanto isso, não aceitamos alterações de UI no branch principal, mas aceitamos no branch[redesenhar filial](https://github.com/Sketchware-Pro/Sketchware-Pro/tree/material-redesign)já que estamos trabalhando ativamente em uma versão de material design do Sketchware Pro.
 
-### Commit Message
+### Mensagem de confirmação
 
 Ao fazer alterações em um ou mais arquivos, você precisa confirmar essas alterações com uma mensagem de confirmação. Aqui estão algumas diretrizes:
 
 -   Mantenha a mensagem de commit curta e detalhada.
 -   Use um destes tipos de commit como prefixo:
-    -   `feat:` for a feature, possibly improving something already existing.
+    -   `feat:`para um recurso, possivelmente melhorando algo já existente.
     -   `fix:`para uma correção, como uma correção de bug.
     -   `style:`para recursos e atualizações relacionadas ao estilo.
     -   `refactor:`para refatorar uma seção específica da base de código.
