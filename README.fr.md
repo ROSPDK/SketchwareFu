@@ -10,14 +10,14 @@ Bienvenue dans Sketchware Pro ! Vous trouverez ici le code source de nombreuses
 
 ## Construire l'application
 
-Pour créer l'application, vous devez utiliser Gradle. Il est fortement recommandé d'utiliser Android Studio pour une expérience optimale.
+Pour créer l'application, vous devez utiliser Gradle. Il est fortement recommandé d'utiliser Android Studio pour la meilleure expérience.
 
 Il existe deux variantes de construction avec des fonctionnalités différentes :
 
 -   `minApi26:`Cette variante prend en charge l'exportation d'AAB à partir de projets et la compilation du code Java 1.8, 1.9, 10 et 11. Cependant, cela ne fonctionne que sur Android 8.0 (O) et supérieur.
 -   `minApi21:`Cette variante ne peut pas produire d'AAB à partir de projets et ne peut compiler que du code Java 1.7, mais elle prend en charge Android 5 et supérieur.
 
-Pour sélectionner la variante de build appropriée dans Android Studio, utilisez l'onglet Variantes de build ou utilisez la commande de build Gradle appropriée.
+To select the appropriate build variant in Android Studio, use the Build Variants tab or use the appropriate Gradle build command.
 
 ### Carte des codes sources
 
