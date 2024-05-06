@@ -4,7 +4,7 @@
 
 # 素描軟體專業版
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 歡迎使用 Sketchware Pro！在這裡您可以找到 Sketchware Pro 中許多類別的原始程式碼，最重要的是，您可以在這裡找到為 Sketchware Pro 做出貢獻的地方。
 
@@ -21,16 +21,16 @@
 
 ### 原始碼圖
 
-| 班級                     | 角色                                             |
-| ---------------------- | ---------------------------------------------- |
-| `a.a.a.ProjectBuilder` | 編譯整個專案的助手                                      |
-| `a.a.a.Ix`             | Responsible for generating AndroidManifest.xml |
-| `a.a.a.Jx`             | 產生活動原始碼                                        |
-| `a.a.a.Lx`             | 產生元件的原始碼，例如監聽器等。                               |
-| `a.a.a.Ox`             | 負責產生佈局的 XML 文件                                 |
-| `a.a.a.qq`             | 內建庫相依性的註冊表                                     |
-| `a.a.a.tq`             | 負責編譯對話框的測驗                                     |
-| `a.a.a.yq`             | 組織 Sketchware 專案的檔案路徑                          |
+| 班級                     | 角色                      |
+| ---------------------- | ----------------------- |
+| `a.a.a.ProjectBuilder` | 編譯整個專案的助手               |
+| `a.a.a.Ix`             | 負責產生AndroidManifest.xml |
+| `a.a.a.Jx`             | 產生活動原始碼                 |
+| `a.a.a.Lx`             | 產生元件的原始碼，例如監聽器等。        |
+| `a.a.a.Ox`             | 負責產生佈局的 XML 文件          |
+| `a.a.a.qq`             | 內建庫相依性的註冊表              |
+| `a.a.a.tq`             | 負責編譯對話框的測驗              |
+| `a.a.a.yq`             | 組織 Sketchware 專案的檔案路徑   |
 
 > [！!]您也可以檢查`mod`包，其中包含大多數貢獻者的更改。
 
@@ -74,7 +74,7 @@
 
 ## 感謝您的貢獻
 
-感謝您對 Sketchware Pro 的貢獻！您的貢獻有助於讓 Sketchware Pro 保持活力。每個接受的貢獻都將記錄在「關於 Modders」活動中。我們最初將使用您的 GitHub 名稱和個人資料圖片，但當然它們可以更改。
+感謝您為 Sketchware Pro 做出貢獻！您的貢獻有助於讓 Sketchware Pro 保持活力。每個接受的貢獻都將記錄在「關於 Modders」活動中。我們最初將使用您的 GitHub 名稱和個人資料圖片，但當然它們可以更改。
 
 ## 不和諧
 
