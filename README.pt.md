@@ -2,17 +2,18 @@
   <img src="assets/Sketchware-Pro.png" style="width: 30%;" />
 </p>
 
-# Sketchware Pro
+# Tarifa TC família S incluída
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)
+[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
-Bem-vindo ao Sketchware Pro! Aqui você encontrará o código-fonte de muitas classes do Sketchware Pro e, o mais importante, o local para contribuir com o Sketchware Pro.
+Bem-vindo ao Sketchware Fu! Aqui você encontrará o código-fonte de muitas classes do Sketchware Fu e, o mais importante, o local para contribuir com o Sketchware Fu.
 
 ## Construindo o aplicativo
 
 Para construir o aplicativo, você deve usar o Gradle. É altamente recomendável usar o Android Studio para obter a melhor experiência.
 
-Existem duas variantes de construção com recursos diferentes:
+There are two build variants with different features:
 
 -   `minApi26:`Esta variante oferece suporte à exportação de AABs de projetos e à compilação de código Java 1.8, 1.9, 10 e 11. No entanto, só funciona no Android 8.0 (O) e superior.
 -   `minApi21:`Esta variante não pode produzir AABs de projetos e só pode compilar código Java 1.7, mas oferece suporte ao Android 5 e superior.
@@ -21,7 +22,7 @@ Para selecionar a variante de build apropriada no Android Studio, use a guia Bui
 
 ### Mapa de código-fonte
 
-| Aula                   | Papel                                                        |
+| Aula                   | Role                                                         |
 | ---------------------- | ------------------------------------------------------------ |
 | `a.a.a.ProjectBuilder` | Auxiliar para compilar um projeto inteiro                    |
 | `a.a.a.Ix`             | Responsável por gerar AndroidManifest.xml                    |
@@ -36,11 +37,11 @@ Para selecionar a variante de build apropriada no Android Studio, use a guia Bui
 
 ## Contribuindo
 
-Se você gostaria de contribuir com o Sketchware Pro, siga estas etapas:
+Se você gostaria de contribuir com o Sketchware Fu, siga estas etapas:
 
 1.  Bifurque este repositório.
-2.  Faça alterações em seu repositório bifurcado.
-3.  Test out those changes.
+2.  Make changes in your forked repository.
+3.  Teste essas mudanças.
 4.  Crie uma solicitação pull neste repositório.
 5.  Sua solicitação pull será revisada pelos membros do repositório e mesclada se for aceita.
 
@@ -74,7 +75,7 @@ Exemplos:
 
 ## Obrigado por contribuir
 
-Obrigado por contribuir com o Sketchware Pro! Suas contribuições ajudam a manter o Sketchware Pro vivo. Cada contribuição aceita será anotada na atividade "Sobre Modders". Usaremos inicialmente seu nome GitHub e foto de perfil, mas eles podem ser alterados, é claro.
+Thank you for contributing to Sketchware Fu! Your contributions help keep Sketchware Fu alive. Each accepted contribution will be noted down in the "About Modders" activity. We'll use your GitHub name and profile picture initially, but they can be changed, of course.
 
 ## Discórdia
 
@@ -86,6 +87,6 @@ Quer conversar conosco, discutir mudanças ou simplesmente sair? Temos um servid
 
 Este mod não foi criado para fins prejudiciais, como prejudicar o Sketchware; muito pelo contrário, na verdade. Foi feito para manter o Sketchware vivo pela comunidade para a comunidade. Use-o a seu critério e considere se tornar um patrocinador do Patreon para apoiar os desenvolvedores. Infelizmente, outras formas de apoiá-los não estão mais funcionando, então o Patreon é a única opção disponível atualmente. Você pode encontrar a página do Patreon[aqui](https://www.patreon.com/sketchware).
 
-NÃO permitimos a publicação do Sketchware Pro como está, ou com modificações, na Play Store ou em qualquer outra app store. Tenha em mente que este projeto ainda é um mod. A modificação não autorizada de aplicativos é considerada ilegal e desencorajamos tal comportamento.
+NÃO permitimos a publicação do Sketchware Fu como está, ou com modificações, na Play Store ou em qualquer outra app store. Tenha em mente que este projeto ainda é um mod. A modificação não autorizada de aplicativos é considerada ilegal e desencorajamos tal comportamento.
 
 Amamos muito o Sketchware e somos gratos aos desenvolvedores do Sketchware por criarem um aplicativo tão incrível. No entanto, não recebemos atualizações há muito tempo. É por isso que decidimos manter o Sketchware vivo criando este mod, e é totalmente gratuito. Não exigimos dinheiro :)
