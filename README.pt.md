@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="assets/Sketchware-Pro.png" style="width: 30%;" />
+  <img src="assets/FuMod.png" style="width: 30%;" />
 </p>
 
 # Tarifa TC família S incluída
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)
+[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 Bem-vindo ao Sketchware Fu! Aqui você encontrará o código-fonte de muitas classes do Sketchware Fu e, o mais importante, o local para contribuir com o Sketchware Fu.
 
@@ -28,7 +29,7 @@ Para selecionar a variante de build apropriada no Android Studio, use a guia Bui
 | `a.a.a.Jx`             | Gera código fonte das atividades                             |
 | `a.a.a.Lx`             | Gera código-fonte de componentes, como ouvintes, etc.        |
 | `a.a.a.Ox`             | Responsável por gerar arquivos XML de layouts                |
-| `a.a.a.qq`             | Registry of built-in libraries' dependencies                 |
+| `a.a.a.qq`             | Registro de dependências de bibliotecas integradas           |
 | `a.a.a.tq`             | Responsável pelos questionários do diálogo de compilação     |
 | `a.a.a.yq`             | Organiza os caminhos dos arquivos dos projetos do Sketchware |
 
@@ -39,7 +40,7 @@ Para selecionar a variante de build apropriada no Android Studio, use a guia Bui
 Se você gostaria de contribuir com o Sketchware Fu, siga estas etapas:
 
 1.  Bifurque este repositório.
-2.  Make changes in your forked repository.
+2.  Faça alterações em seu repositório bifurcado.
 3.  Teste essas mudanças.
 4.  Crie uma solicitação pull neste repositório.
 5.  Sua solicitação pull será revisada pelos membros do repositório e mesclada se for aceita.
@@ -48,7 +49,7 @@ Aceitamos contribuições de qualquer tamanho, sejam elas recursos importantes o
 
 ### Que mudanças provavelmente não aceitaremos
 
-Most changes related to the user interface (components that already exist in vanilla Sketchware) are unlikely to be accepted. If something design-related gets changed, ideally the whole app should follow the new style too, which is challenging, especially for mods.
+A maioria das alterações relacionadas à interface do usuário (componentes que já existem no Sketchware vanilla) provavelmente não serão aceitas. Se algo relacionado ao design for alterado, o ideal é que todo o aplicativo siga o novo estilo também, o que é um desafio, especialmente para mods.
 
 > [!OBSERVAÇÃO]Enquanto isso, não aceitamos alterações de UI no branch principal, mas aceitamos no branch[redesenhar filial](https://github.com/Sketchware-Pro/Sketchware-Pro/tree/material-redesign)já que estamos trabalhando ativamente em uma versão de material design do Sketchware Pro.
 
@@ -61,7 +62,7 @@ Ao fazer alterações em um ou mais arquivos, você precisa confirmar essas alte
     -   `feat:`para um recurso, possivelmente melhorando algo já existente.
     -   `fix:`para uma correção, como uma correção de bug.
     -   `style:`para recursos e atualizações relacionadas ao estilo.
-    -   `refactor:` for refactoring a specific section of the codebase.
+    -   `refactor:`para refatorar uma seção específica da base de código.
     -   `test:`para tudo relacionado a testes.
     -   `docs:`para tudo relacionado à documentação.
     -   `chore:`para manutenção de código (você também pode usar emojis para representar tipos de commit).
