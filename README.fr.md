@@ -4,7 +4,7 @@
 
 # Logiciel de croquis Pro
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 Bienvenue dans Sketchware Pro ! Vous trouverez ici le code source de nombreuses classes de Sketchware Pro et, surtout, l'endroit où contribuer à Sketchware Pro.
 
@@ -14,10 +14,10 @@ Pour créer l'application, vous devez utiliser Gradle. Il est fortement recomman
 
 Il existe deux variantes de construction avec des fonctionnalités différentes :
 
--   `minApi26:` This variant supports exporting AABs from projects and compiling Java 1.8, 1.9, 10, and 11 code. However, it only works on Android 8.0 (O) and above.
+-   `minApi26:`Cette variante prend en charge l'exportation d'AAB à partir de projets et la compilation du code Java 1.8, 1.9, 10 et 11. Cependant, cela ne fonctionne que sur Android 8.0 (O) et supérieur.
 -   `minApi21:`Cette variante ne peut pas produire d'AAB à partir de projets et ne peut compiler que du code Java 1.7, mais elle prend en charge Android 5 et supérieur.
 
-To select the appropriate build variant in Android Studio, use the Build Variants tab or use the appropriate Gradle build command.
+Pour sélectionner la variante de build appropriée dans Android Studio, utilisez l'onglet Variantes de build ou utilisez la commande de build Gradle appropriée.
 
 ### Carte des codes sources
 
@@ -32,7 +32,7 @@ To select the appropriate build variant in Android Studio, use the Build Variant
 | `a.a.a.tq`             | Responsable des quiz de la boîte de dialogue de compilation        |
 | `a.a.a.yq`             | Organise les chemins de fichiers des projets Sketchware            |
 
-> [!CONSEIL]Vous pouvez également vérifier le`mod` package, which contains the majority of contributors' changes.
+> [!CONSEIL]Vous pouvez également vérifier le`mod`package, qui contient la majorité des modifications apportées par les contributeurs.
 
 ## Contribuant
 
@@ -57,7 +57,7 @@ Il est peu probable que la plupart des modifications liées à l'interface utili
 Lorsque vous apportez des modifications à un ou plusieurs fichiers, vous devez valider ces modifications avec un message de validation. Voici quelques lignes directrices :
 
 -   Gardez le message de validation court et détaillé.
--   Use one of these commit types as a prefix:
+-   Utilisez l'un de ces types de commit comme préfixe :
     -   `feat:`pour une fonctionnalité, améliorant éventuellement quelque chose déjà existant.
     -   `fix:`pour un correctif, comme une correction de bug.
     -   `style:`pour les fonctionnalités et les mises à jour liées au style.
@@ -88,4 +88,4 @@ Ce mod n'a pas été créé à des fins nuisibles, telles que nuire à Sketchwar
 
 Nous n'autorisons PAS la publication de Sketchware Pro tel quel, ou avec des modifications, sur Play Store ou sur tout autre magasin d'applications. Gardez à l'esprit que ce projet est toujours un mod. La modification non autorisée d'applications est considérée comme illégale et nous décourageons un tel comportement.
 
-We love Sketchware very much and are grateful to Sketchware's developers for creating such an amazing app. However, we haven't received updates for a long time. That's why we decided to keep Sketchware alive by creating this mod, and it's completely free. We don't demand any money :)
+Nous aimons beaucoup Sketchware et sommes reconnaissants envers les développeurs de Sketchware d'avoir créé une application aussi étonnante. Cependant, nous n'avons pas reçu de mises à jour depuis longtemps. C'est pourquoi nous avons décidé de maintenir Sketchware en vie en créant ce mod, et il est entièrement gratuit. Nous ne demandons pas d'argent :)
