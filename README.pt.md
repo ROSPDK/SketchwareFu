@@ -4,7 +4,7 @@
 
 # Sketchware Pro
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 Bem-vindo ao Sketchware Pro! Aqui você encontrará o código-fonte de muitas classes do Sketchware Pro e, o mais importante, o local para contribuir com o Sketchware Pro.
 
@@ -21,16 +21,16 @@ Para selecionar a variante de build apropriada no Android Studio, use a guia Bui
 
 ### Mapa de código-fonte
 
-| Aula                   | Papel                                                        |
-| ---------------------- | ------------------------------------------------------------ |
-| `a.a.a.ProjectBuilder` | Auxiliar para compilar um projeto inteiro                    |
-| `a.a.a.Ix`             | Responsável por gerar AndroidManifest.xml                    |
-| `a.a.a.Jx`             | Gera código fonte das atividades                             |
-| `a.a.a.Lx`             | Gera código-fonte de componentes, como ouvintes, etc.        |
-| `a.a.a.Ox`             | Responsável por gerar arquivos XML de layouts                |
-| `a.a.a.qq`             | Registro de dependências de bibliotecas integradas           |
-| `a.a.a.tq`             | Responsável pelos questionários do diálogo de compilação     |
-| `a.a.a.yq`             | Organiza os caminhos dos arquivos dos projetos do Sketchware |
+| Aula                   | Papel                                                    |
+| ---------------------- | -------------------------------------------------------- |
+| `a.a.a.ProjectBuilder` | Auxiliar para compilar um projeto inteiro                |
+| `a.a.a.Ix`             | Responsável por gerar AndroidManifest.xml                |
+| `a.a.a.Jx`             | Gera código fonte das atividades                         |
+| `a.a.a.Lx`             | Gera código-fonte de componentes, como ouvintes, etc.    |
+| `a.a.a.Ox`             | Responsável por gerar arquivos XML de layouts            |
+| `a.a.a.qq`             | Registro de dependências de bibliotecas integradas       |
+| `a.a.a.tq`             | Responsável pelos questionários do diálogo de compilação |
+| `a.a.a.yq`             | Organizes Sketchware projects' file paths                |
 
 > [!DICA]Você também pode verificar o`mod`pacote, que contém a maioria das alterações dos contribuidores.
 
@@ -74,7 +74,7 @@ Exemplos:
 
 ## Obrigado por contribuir
 
-Obrigado por contribuir com o Sketchware Pro! Suas contribuições ajudam a manter o Sketchware Pro vivo. Cada contribuição aceita será anotada na atividade "Sobre Modders". Usaremos inicialmente seu nome GitHub e foto de perfil, mas eles podem ser alterados, é claro.
+Thank you for contributing to Sketchware Pro! Your contributions help keep Sketchware Pro alive. Each accepted contribution will be noted down in the "About Modders" activity. We'll use your GitHub name and profile picture initially, but they can be changed, of course.
 
 ## Discórdia
 
