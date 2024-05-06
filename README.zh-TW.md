@@ -4,7 +4,7 @@
 
 # 素描軟體專業版
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 歡迎使用 Sketchware Pro！在這裡您可以找到 Sketchware Pro 中許多類別的原始程式碼，最重要的是，您可以在這裡找到為 Sketchware Pro 做出貢獻的地方。
 
@@ -21,16 +21,16 @@
 
 ### 原始碼圖
 
-| 班級                     | 角色                                           |
-| ---------------------- | -------------------------------------------- |
-| `a.a.a.ProjectBuilder` | 編譯整個專案的助手                                    |
-| `a.a.a.Ix`             | 負責產生AndroidManifest.xml                      |
-| `a.a.a.Jx`             | 產生活動原始碼                                      |
-| `a.a.a.Lx`             | 產生元件的原始碼，例如監聽器等。                             |
-| `a.a.a.Ox`             | 負責產生佈局的 XML 文件                               |
-| `a.a.a.qq`             | Registry of built-in libraries' dependencies |
-| `a.a.a.tq`             | 負責編譯對話框的測驗                                   |
-| `a.a.a.yq`             | 組織 Sketchware 專案的檔案路徑                        |
+| 班級                     | 角色                                             |
+| ---------------------- | ---------------------------------------------- |
+| `a.a.a.ProjectBuilder` | 編譯整個專案的助手                                      |
+| `a.a.a.Ix`             | Responsible for generating AndroidManifest.xml |
+| `a.a.a.Jx`             | 產生活動原始碼                                        |
+| `a.a.a.Lx`             | 產生元件的原始碼，例如監聽器等。                               |
+| `a.a.a.Ox`             | 負責產生佈局的 XML 文件                                 |
+| `a.a.a.qq`             | 內建庫相依性的註冊表                                     |
+| `a.a.a.tq`             | 負責編譯對話框的測驗                                     |
+| `a.a.a.yq`             | 組織 Sketchware 專案的檔案路徑                          |
 
 > [！!]您也可以檢查`mod`包，其中包含大多數貢獻者的更改。
 
@@ -88,4 +88,4 @@
 
 我們不允許在 Play 商店或任何其他應用程式商店上按原樣或修改發布 Sketchware Pro。請記住，這個項目仍然是一個模組。未經授權的應用程式修改被視為非法，我們不鼓勵此類行為。
 
-We love Sketchware very much and are grateful to Sketchware's developers for creating such an amazing app. However, we haven't received updates for a long time. That's why we decided to keep Sketchware alive by creating this mod, and it's completely free. We don't demand any money :)
+我們非常喜歡 Sketchware，並感謝 Sketchware 的開發人員創建瞭如此出色的應用程式。然而，我們已經很久沒有收到更新了。這就是為什麼我們決定透過創建這個完全免費的 Mod 來保持 Sketchware 的活力。我們不要求任何錢:)
