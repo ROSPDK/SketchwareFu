@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Sketchware-Pro.png" style="width: 30%;" />
+  <img src="assets/FuMod.png" style="width: 30%;" />
 </p>
 
 # Tarif TC famille S inclus
@@ -19,7 +19,7 @@ Il existe deux variantes de construction avec des fonctionnalités différentes�
 
 Pour sélectionner la variante de build appropriée dans Android Studio, utilisez l'onglet Variantes de build ou utilisez la commande de build Gradle appropriée.
 
-### Carte des codes sources
+### Source Code Map
 
 | Classe                 | Rôle                                                               |
 | ---------------------- | ------------------------------------------------------------------ |
@@ -27,9 +27,9 @@ Pour sélectionner la variante de build appropriée dans Android Studio, utilise
 | `a.a.a.Ix`             | Responsable de la génération d'AndroidManifest.xml                 |
 | `a.a.a.Jx`             | Génère le code source des activités                                |
 | `a.a.a.Lx`             | Génère le code source des composants, tels que les écouteurs, etc. |
-| `a.a.a.Ox`             | Responsible for generating XML files of layouts                    |
+| `a.a.a.Ox`             | Responsable de la génération des fichiers XML de mises en page     |
 | `a.a.a.qq`             | Registre des dépendances des bibliothèques intégrées               |
-| `a.a.a.tq`             | Responsable des quiz de la boîte de dialogue de compilation        |
+| `a.a.a.tq`             | Responsible for the compiling dialog's quizzes                     |
 | `a.a.a.yq`             | Organise les chemins de fichiers des projets Sketchware            |
 
 > [!CONSEIL]Vous pouvez également vérifier le`mod`package, qui contient la majorité des modifications apportées par les contributeurs.
@@ -59,7 +59,7 @@ Lorsque vous apportez des modifications à un ou plusieurs fichiers, vous devez 
 -   Gardez le message de validation court et détaillé.
 -   Utilisez l'un de ces types de commit comme préfixe :
     -   `feat:`pour une fonctionnalité, améliorant éventuellement quelque chose déjà existant.
-    -   `fix:` for a fix, such as a bug fix.
+    -   `fix:`pour un correctif, comme une correction de bug.
     -   `style:`pour les fonctionnalités et les mises à jour liées au style.
     -   `refactor:`pour refactoriser une section spécifique de la base de code.
     -   `test:`pour tout ce qui concerne les tests.
@@ -86,6 +86,6 @@ Vous souhaitez discuter avec nous, discuter des changements ou simplement passer
 
 Ce mod n'a pas été créé à des fins nuisibles, telles que nuire à Sketchware ; bien au contraire, en fait. Il a été conçu pour maintenir Sketchware en vie par la communauté, pour la communauté. Veuillez l'utiliser à votre propre discrétion et envisagez de devenir un bailleur de fonds Patreon pour soutenir les développeurs. Malheureusement, les autres moyens de les prendre en charge ne fonctionnent plus, Patreon est donc la seule option disponible actuellement. Vous pouvez trouver leur page Patreon[ici](https://www.patreon.com/sketchware).
 
-Nous n'autorisons PAS la publication de Sketchware Fu tel quel, ou avec des modifications, sur Play Store ou sur tout autre magasin d'applications. Gardez à l'esprit que ce projet est toujours un mod. La modification non autorisée d'applications est considérée comme illégale et nous décourageons un tel comportement.
+Nous n'autorisons PAS la publication de Sketchware Fu tel quel, ou avec des modifications, sur le Play Store ou sur tout autre magasin d'applications. Gardez à l'esprit que ce projet est toujours un mod. La modification non autorisée d'applications est considérée comme illégale et nous décourageons un tel comportement.
 
 Nous aimons beaucoup Sketchware et sommes reconnaissants envers les développeurs de Sketchware d'avoir créé une application aussi étonnante. Cependant, nous n'avons pas reçu de mises à jour depuis longtemps. C'est pourquoi nous avons décidé de maintenir Sketchware en vie en créant ce mod, et il est entièrement gratuit. Nous ne demandons pas d'argent :)
