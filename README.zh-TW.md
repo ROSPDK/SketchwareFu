@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/Sketchware-Pro.png" style="width: 30%;" />
+  <img src="assets/FuMod.png" style="width: 30%;" />
 </p>
 
 # 含 S 系列 TC 票價
 
 [![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
-歡迎來到素描軟體福！在這裡您可以找到 Sketchware Fu 中許多類別的原始程式碼，最重要的是，這是為 Sketchware Fu 做出貢獻的地方。
+歡迎來到Sketchware Fu！在這裡您可以找到 Sketchware Fu 中許多類別的原始程式碼，最重要的是，這是為 Sketchware Fu 做出貢獻的地方。
 
 ## 建立應用程式
 
@@ -36,7 +36,7 @@
 
 ## 貢獻
 
-If you'd like to contribute to Sketchware Fu, follow these steps:
+如果您想為 Sketchware Fu 做出貢獻，請按照以下步驟操作：
 
 1.  分叉這個儲存庫。
 2.  在您的分叉存儲庫中進行更改。
@@ -84,7 +84,7 @@ If you'd like to contribute to Sketchware Fu, follow these steps:
 
 ## 免責聲明
 
-該模組並非出於任何有害目的而創建，例如損害 Sketchware；事實上，恰恰相反。它是為了讓 Sketchware 保持活力而由社區為社區服務的。請自行決定使用它並考慮成為 Patreon 支持者以支援開發人員。不幸的是，其他支持他們的方法不再有效，因此 Patreon 是目前唯一可用的選擇。你可以找到他們的 Patreon 頁面[這裡](https://www.patreon.com/sketchware).
+該模組並非出於任何有害目的而創建，例如損害 Sketchware；事實上，恰恰相反。它是為了讓 Sketchware 保持活力而由社區為社區服務的。請自行決定使用它並考慮成為 Patreon 支持者以支援開發人員。不幸的是，其他支持他們的方法不再有效，因此 Patreon 是目前唯一可用的選擇。你可以找到他們的 Patreon 頁面[here](https://www.patreon.com/sketchware).
 
 我們不允許在 Play 商店或任何其他應用程式商店上按原樣或修改後發布 Sketchware Fu。請記住，這個項目仍然是一個模組。未經授權的應用程式修改被視為非法，我們不鼓勵此類行為。
 
