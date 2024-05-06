@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Sketchware-Pro.png" style="width: 30%;" />
+  <img src="assets/FuMod.png" style="width: 30%;" />
 </p>
 
 # يشمل سعر تذكرة S TC العائلية
@@ -27,7 +27,7 @@
 | `a.a.a.Ix`             | المسؤول عن إنشاء AndroidManifest.xml                   |
 | `a.a.a.Jx`             | يولد كود المصدر للأنشطة                                |
 | `a.a.a.Lx`             | يُنشئ كود المصدر للمكونات، مثل المستمعين، وما إلى ذلك. |
-| `a.a.a.Ox`             | Responsible for generating XML files of layouts        |
+| `a.a.a.Ox`             | مسؤول عن إنشاء ملفات XML للتخطيطات                     |
 | `a.a.a.qq`             | سجل تبعيات المكتبات المضمنة                            |
 | `a.a.a.tq`             | المسؤول عن تجميع اختبارات الحوار                       |
 | `a.a.a.yq`             | ينظم مسارات ملفات مشاريع Sketchware                    |
@@ -84,8 +84,8 @@
 
 ## تنصل
 
-لم يتم إنشاء هذا التعديل لأية أغراض ضارة، مثل الإضرار ببرنامج Sketchware؛ بل على العكس تماما، في الواقع. لقد تم تصميمه لإبقاء Sketchware على قيد الحياة من قبل المجتمع من أجل المجتمع. يرجى استخدامه وفقًا لتقديرك الخاص وفكر في أن تصبح أحد داعمي Patreon لدعم المطورين. ولسوء الحظ، لم تعد الطرق الأخرى لدعمهم فعالة، لذا فإن Patreon هو الخيار الوحيد المتاح حاليًا. يمكنك العثور على صفحة Patreon الخاصة بهم[هنا](https://www.patreon.com/sketchware).
+This mod was not created for any harmful purposes, such as harming Sketchware; quite the opposite, actually. It was made to keep Sketchware alive by the community for the community. Please use it at your own discretion and consider becoming a Patreon backer to support the developers. Unfortunately, other ways to support them are not working anymore, so Patreon is the only available option currently. You can find their Patreon page [هنا](https://www.patreon.com/sketchware).
 
-نحن لا نسمح بنشر Sketchware Fu كما هو، أو مع بعض التعديلات، على متجر Play أو في أي متجر تطبيقات آخر. ضع في اعتبارك أن هذا المشروع لا يزال تعديلاً. يعتبر التعديل غير المصرح به للتطبيقات غير قانوني ونحن لا نشجع مثل هذا السلوك.
+We do NOT permit publishing Sketchware Fu as it is, or with modifications, on Play Store or on any other app store. Keep in mind that this project is still a mod. Unauthorized modding of apps is considered illegal and we discourage such behavior.
 
 نحن نحب Sketchware كثيرًا ونشعر بالامتنان لمطوري Sketchware لإنشاء مثل هذا التطبيق المذهل. ومع ذلك، لم نتلق تحديثات لفترة طويلة. ولهذا السبب قررنا إبقاء Sketchware على قيد الحياة من خلال إنشاء هذا التعديل، وهو مجاني تمامًا. نحن لا نطلب أي أموال :)
