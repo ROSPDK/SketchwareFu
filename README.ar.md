@@ -4,6 +4,8 @@
 
 # برنامج سكيتش وير برو
 
+    <img src="https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg" alt="Android CI"/>
+
 [![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro)
 
 مرحبًا بك في Sketchware Pro! ستجد هنا الكود المصدري للعديد من الفئات في Sketchware Pro، والأهم من ذلك، المكان المناسب للمساهمة في Sketchware Pro.
@@ -14,14 +16,14 @@
 
 هناك نوعان مختلفان من البناء بميزات مختلفة:
 
--   `minApi26:` This variant supports exporting AABs from projects and compiling Java 1.8, 1.9, 10, and 11 code. However, it only works on Android 8.0 (O) and above.
+-   `minApi26:`يدعم هذا المتغير تصدير AABs من المشاريع وتجميع كود Java 1.8 و1.9 و10 و11. ومع ذلك، فهو يعمل فقط على نظام التشغيل Android 8.0 (O) والإصدارات الأحدث.
 -   `minApi21:`لا يمكن لهذا المتغير إنتاج AABs من المشاريع ويمكنه فقط تجميع كود Java 1.7، ولكنه يدعم Android 5 والإصدارات الأحدث.
 
-لتحديد متغير البناء المناسب في Android Studio، استخدم علامة التبويب Build Variants أو استخدم أمر Gradle build المناسب.
+To select the appropriate build variant in Android Studio, use the Build Variants tab or use the appropriate Gradle build command.
 
 ### خريطة كود المصدر
 
-| Class                  | دور                                                    |
+| فصل                    | دور                                                    |
 | ---------------------- | ------------------------------------------------------ |
 | `a.a.a.ProjectBuilder` | مساعد لتجميع المشروع بأكمله                            |
 | `a.a.a.Ix`             | المسؤول عن إنشاء AndroidManifest.xml                   |
@@ -32,8 +34,7 @@
 | `a.a.a.tq`             | المسؤول عن تجميع اختبارات الحوار                       |
 | `a.a.a.yq`             | ينظم مسارات ملفات مشاريع Sketchware                    |
 
-> [!نصيحة]
-> You can also check the `mod`الحزمة، التي تحتوي على غالبية تغييرات المساهمين.
+> [!نصيحة]يمكنك أيضًا التحقق من`mod`الحزمة، التي تحتوي على غالبية تغييرات المساهمين.
 
 ## المساهمة
 
@@ -89,4 +90,4 @@
 
 لا نسمح بنشر Sketchware Pro كما هو، أو مع بعض التعديلات، على متجر Play أو في أي متجر تطبيقات آخر. ضع في اعتبارك أن هذا المشروع لا يزال تعديلاً. يعتبر التعديل غير المصرح به للتطبيقات غير قانوني ونحن لا نشجع مثل هذا السلوك.
 
-نحن نحب Sketchware كثيرًا ونشعر بالامتنان لمطوري Sketchware لإنشاء مثل هذا التطبيق المذهل. ومع ذلك، لم نتلق تحديثات لفترة طويلة. لهذا السبب قررنا إبقاء Sketchware على قيد الحياة من خلال إنشاء هذا التعديل، وهو مجاني تمامًا. نحن لا نطلب أي أموال :)
+نحن نحب Sketchware كثيرًا ونشعر بالامتنان لمطوري Sketchware لإنشاء مثل هذا التطبيق المذهل. ومع ذلك، لم نتلق تحديثات لفترة طويلة. ولهذا السبب قررنا إبقاء Sketchware على قيد الحياة من خلال إنشاء هذا التعديل، وهو مجاني تمامًا. نحن لا نطلب أي أموال :)
