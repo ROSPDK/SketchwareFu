@@ -6,11 +6,11 @@
 
 [![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
-Bienvenue sur Sketchware Fu ! Vous trouverez ici le code source de nombreuses classes de Sketchware Fu et, surtout, l'endroit où contribuer à Sketchware Fu.
+Bienvenue sur Sketchware Fu ! Vous trouverez ici le code source de nombreuses classes de Sketchware Fu et, plus important encore, l'endroit où contribuer à Sketchware Fu.
 
 ## Construire l'application
 
-Pour créer l'application, vous devez utiliser Gradle. Il est fortement recommandé d'utiliser Android Studio pour la meilleure expérience.
+Pour créer l'application, vous devez utiliser Gradle. Il est fortement recommandé d'utiliser Android Studio pour une expérience optimale.
 
 Il existe deux variantes de construction avec des fonctionnalités différentes :
 
@@ -27,7 +27,7 @@ Pour sélectionner la variante de build appropriée dans Android Studio, utilise
 | `a.a.a.Ix`             | Responsable de la génération d'AndroidManifest.xml                 |
 | `a.a.a.Jx`             | Génère le code source des activités                                |
 | `a.a.a.Lx`             | Génère le code source des composants, tels que les écouteurs, etc. |
-| `a.a.a.Ox`             | Responsable de la génération des fichiers XML de mises en page     |
+| `a.a.a.Ox`             | Responsible for generating XML files of layouts                    |
 | `a.a.a.qq`             | Registre des dépendances des bibliothèques intégrées               |
 | `a.a.a.tq`             | Responsable des quiz de la boîte de dialogue de compilation        |
 | `a.a.a.yq`             | Organise les chemins de fichiers des projets Sketchware            |
@@ -59,7 +59,7 @@ Lorsque vous apportez des modifications à un ou plusieurs fichiers, vous devez 
 -   Gardez le message de validation court et détaillé.
 -   Utilisez l'un de ces types de commit comme préfixe :
     -   `feat:`pour une fonctionnalité, améliorant éventuellement quelque chose déjà existant.
-    -   `fix:`pour un correctif, comme une correction de bug.
+    -   `fix:` for a fix, such as a bug fix.
     -   `style:`pour les fonctionnalités et les mises à jour liées au style.
     -   `refactor:`pour refactoriser une section spécifique de la base de code.
     -   `test:`pour tout ce qui concerne les tests.
