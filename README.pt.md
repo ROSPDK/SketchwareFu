@@ -4,8 +4,7 @@
 
 # Tarifa TC família S incluída
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)
-[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 Bem-vindo ao Sketchware Fu! Aqui você encontrará o código-fonte de muitas classes do Sketchware Fu e, o mais importante, o local para contribuir com o Sketchware Fu.
 
@@ -13,7 +12,7 @@ Bem-vindo ao Sketchware Fu! Aqui você encontrará o código-fonte de muitas cla
 
 Para construir o aplicativo, você deve usar o Gradle. É altamente recomendável usar o Android Studio para obter a melhor experiência.
 
-There are two build variants with different features:
+Existem duas variantes de construção com recursos diferentes:
 
 -   `minApi26:`Esta variante oferece suporte à exportação de AABs de projetos e à compilação de código Java 1.8, 1.9, 10 e 11. No entanto, só funciona no Android 8.0 (O) e superior.
 -   `minApi21:`Esta variante não pode produzir AABs de projetos e só pode compilar código Java 1.7, mas oferece suporte ao Android 5 e superior.
@@ -22,14 +21,14 @@ Para selecionar a variante de build apropriada no Android Studio, use a guia Bui
 
 ### Mapa de código-fonte
 
-| Aula                   | Role                                                         |
+| Aula                   | Papel                                                        |
 | ---------------------- | ------------------------------------------------------------ |
 | `a.a.a.ProjectBuilder` | Auxiliar para compilar um projeto inteiro                    |
 | `a.a.a.Ix`             | Responsável por gerar AndroidManifest.xml                    |
 | `a.a.a.Jx`             | Gera código fonte das atividades                             |
 | `a.a.a.Lx`             | Gera código-fonte de componentes, como ouvintes, etc.        |
 | `a.a.a.Ox`             | Responsável por gerar arquivos XML de layouts                |
-| `a.a.a.qq`             | Registro de dependências de bibliotecas integradas           |
+| `a.a.a.qq`             | Registry of built-in libraries' dependencies                 |
 | `a.a.a.tq`             | Responsável pelos questionários do diálogo de compilação     |
 | `a.a.a.yq`             | Organiza os caminhos dos arquivos dos projetos do Sketchware |
 
@@ -49,7 +48,7 @@ Aceitamos contribuições de qualquer tamanho, sejam elas recursos importantes o
 
 ### Que mudanças provavelmente não aceitaremos
 
-A maioria das alterações relacionadas à interface do usuário (componentes que já existem no Sketchware vanilla) provavelmente não serão aceitas. Se algo relacionado ao design for alterado, o ideal é que todo o aplicativo siga o novo estilo também, o que é um desafio, especialmente para mods.
+Most changes related to the user interface (components that already exist in vanilla Sketchware) are unlikely to be accepted. If something design-related gets changed, ideally the whole app should follow the new style too, which is challenging, especially for mods.
 
 > [!OBSERVAÇÃO]Enquanto isso, não aceitamos alterações de UI no branch principal, mas aceitamos no branch[redesenhar filial](https://github.com/Sketchware-Pro/Sketchware-Pro/tree/material-redesign)já que estamos trabalhando ativamente em uma versão de material design do Sketchware Pro.
 
@@ -62,7 +61,7 @@ Ao fazer alterações em um ou mais arquivos, você precisa confirmar essas alte
     -   `feat:`para um recurso, possivelmente melhorando algo já existente.
     -   `fix:`para uma correção, como uma correção de bug.
     -   `style:`para recursos e atualizações relacionadas ao estilo.
-    -   `refactor:`para refatorar uma seção específica da base de código.
+    -   `refactor:` for refactoring a specific section of the codebase.
     -   `test:`para tudo relacionado a testes.
     -   `docs:`para tudo relacionado à documentação.
     -   `chore:`para manutenção de código (você também pode usar emojis para representar tipos de commit).
@@ -75,7 +74,7 @@ Exemplos:
 
 ## Obrigado por contribuir
 
-Thank you for contributing to Sketchware Fu! Your contributions help keep Sketchware Fu alive. Each accepted contribution will be noted down in the "About Modders" activity. We'll use your GitHub name and profile picture initially, but they can be changed, of course.
+Obrigado por contribuir com o Sketchware Fu! Suas contribuições ajudam a manter o Sketchware Fu vivo. Cada contribuição aceita será anotada na atividade "Sobre Modders". Usaremos inicialmente seu nome GitHub e foto de perfil, mas eles podem ser alterados, é claro.
 
 ## Discórdia
 
