@@ -6,7 +6,7 @@
 
 [![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
-歡迎來到Sketchware Fu！在這裡您可以找到 Sketchware Fu 中許多類別的原始程式碼，最重要的是，這是為 Sketchware Fu 做出貢獻的地方。
+歡迎來到素描軟體福！在這裡您可以找到 Sketchware Fu 中許多類別的原始程式碼，最重要的是，這是為 Sketchware Fu 做出貢獻的地方。
 
 ## 建立應用程式
 
@@ -21,22 +21,22 @@
 
 ### 原始碼圖
 
-| 班級                     | Role                                         |
-| ---------------------- | -------------------------------------------- |
-| `a.a.a.ProjectBuilder` | 編譯整個專案的助手                                    |
-| `a.a.a.Ix`             | 負責產生AndroidManifest.xml                      |
-| `a.a.a.Jx`             | 產生活動原始碼                                      |
-| `a.a.a.Lx`             | 產生元件的原始碼，例如監聽器等。                             |
-| `a.a.a.Ox`             | 負責產生佈局的 XML 文件                               |
-| `a.a.a.qq`             | Registry of built-in libraries' dependencies |
-| `a.a.a.tq`             | 負責編譯對話框的測驗                                   |
-| `a.a.a.yq`             | 組織 Sketchware 專案的檔案路徑                        |
+| 班級                     | 角色                      |
+| ---------------------- | ----------------------- |
+| `a.a.a.ProjectBuilder` | 編譯整個專案的助手               |
+| `a.a.a.Ix`             | 負責產生AndroidManifest.xml |
+| `a.a.a.Jx`             | 產生活動原始碼                 |
+| `a.a.a.Lx`             | 產生元件的原始碼，例如監聽器等。        |
+| `a.a.a.Ox`             | 負責產生佈局的 XML 文件          |
+| `a.a.a.qq`             | 內建庫相依性的註冊表              |
+| `a.a.a.tq`             | 負責編譯對話框的測驗              |
+| `a.a.a.yq`             | 組織 Sketchware 專案的檔案路徑   |
 
 > [！!]您也可以檢查`mod`包，其中包含大多數貢獻者的更改。
 
 ## 貢獻
 
-如果您想為 Sketchware Fu 做出貢獻，請按照以下步驟操作：
+If you'd like to contribute to Sketchware Fu, follow these steps:
 
 1.  分叉這個儲存庫。
 2.  在您的分叉存儲庫中進行更改。
@@ -86,6 +86,6 @@
 
 該模組並非出於任何有害目的而創建，例如損害 Sketchware；事實上，恰恰相反。它是為了讓 Sketchware 保持活力而由社區為社區服務的。請自行決定使用它並考慮成為 Patreon 支持者以支援開發人員。不幸的是，其他支持他們的方法不再有效，因此 Patreon 是目前唯一可用的選擇。你可以找到他們的 Patreon 頁面[這裡](https://www.patreon.com/sketchware).
 
-我們不允許在 Play 商店或任何其他應用程式商店上按原樣或經過修改發布 Sketchware Fu。請記住，這個項目仍然是一個模組。未經授權的應用程式修改被視為非法，我們不鼓勵此類行為。
+我們不允許在 Play 商店或任何其他應用程式商店上按原樣或修改後發布 Sketchware Fu。請記住，這個項目仍然是一個模組。未經授權的應用程式修改被視為非法，我們不鼓勵此類行為。
 
 我們非常喜歡 Sketchware，並感謝 Sketchware 的開發人員創建瞭如此出色的應用程式。然而，我們已經很久沒有收到更新了。這就是為什麼我們決定透過創建這個完全免費的 Mod 來保持 Sketchware 的活力。我們不要求任何錢:)
