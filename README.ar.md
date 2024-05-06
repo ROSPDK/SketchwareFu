@@ -2,11 +2,11 @@
   <img src="assets/Sketchware-Pro.png" style="width: 30%;" />
 </p>
 
-# برنامج سكيتش وير برو
+# يشمل سعر تذكرة S TC العائلية
 
 [![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
-مرحبًا بك في Sketchware Pro! ستجد هنا الكود المصدري للعديد من الفئات في Sketchware Pro، والأهم من ذلك، المكان المناسب للمساهمة في Sketchware Pro.
+مرحبًا بك في Sketchware Fu! ستجد هنا الكود المصدري للعديد من الفئات في Sketchware Fu، والأهم من ذلك، المكان المناسب للمساهمة في Sketchware Fu.
 
 ## بناء التطبيق
 
@@ -36,7 +36,7 @@
 
 ## المساهمة
 
-إذا كنت ترغب في المساهمة في Sketchware Pro، فاتبع الخطوات التالية:
+إذا كنت ترغب في المساهمة في Sketchware Fu، فاتبع الخطوات التالية:
 
 1.  شوكة هذا المستودع.
 2.  قم بإجراء تغييرات في مستودعك المتشعب.
@@ -74,7 +74,7 @@
 
 ## شكرا للمساهمة
 
-شكرًا لك على المساهمة في Sketchware Pro! تساعد مساهماتك في إبقاء Sketchware Pro على قيد الحياة. سيتم الإشارة إلى كل مساهمة مقبولة في نشاط "حول المعدلين". سنستخدم اسمك وصورة ملفك الشخصي في GitHub في البداية، ولكن يمكن تغييرهما بالطبع.
+شكرًا لك على المساهمة في Sketchware Fu! تساعد مساهماتك في إبقاء Sketchware Fu على قيد الحياة. سيتم الإشارة إلى كل مساهمة مقبولة في نشاط "حول المعدلين". سنستخدم اسمك وصورة ملفك الشخصي في GitHub في البداية، ولكن يمكن تغييرهما بالطبع.
 
 ## الفتنة
 
@@ -86,6 +86,6 @@
 
 لم يتم إنشاء هذا التعديل لأية أغراض ضارة، مثل الإضرار ببرنامج Sketchware؛ بل على العكس تماما، في الواقع. لقد تم تصميمه لإبقاء Sketchware على قيد الحياة من قبل المجتمع من أجل المجتمع. يرجى استخدامه وفقًا لتقديرك الخاص وفكر في أن تصبح أحد داعمي Patreon لدعم المطورين. ولسوء الحظ، لم تعد الطرق الأخرى لدعمهم فعالة، لذا فإن Patreon هو الخيار الوحيد المتاح حاليًا. يمكنك العثور على صفحة Patreon الخاصة بهم[هنا](https://www.patreon.com/sketchware).
 
-لا نسمح بنشر Sketchware Pro كما هو، أو مع بعض التعديلات، على متجر Play أو في أي متجر تطبيقات آخر. ضع في اعتبارك أن هذا المشروع لا يزال تعديلاً. يعتبر التعديل غير المصرح به للتطبيقات غير قانوني ونحن لا نشجع مثل هذا السلوك.
+نحن لا نسمح بنشر Sketchware Fu كما هو، أو مع بعض التعديلات، على متجر Play أو في أي متجر تطبيقات آخر. ضع في اعتبارك أن هذا المشروع لا يزال تعديلاً. يعتبر التعديل غير المصرح به للتطبيقات غير قانوني ونحن لا نشجع مثل هذا السلوك.
 
 نحن نحب Sketchware كثيرًا ونشعر بالامتنان لمطوري Sketchware لإنشاء مثل هذا التطبيق المذهل. ومع ذلك، لم نتلق تحديثات لفترة طويلة. لهذا السبب قررنا إبقاء Sketchware على قيد الحياة من خلال إنشاء هذا التعديل، وهو مجاني تمامًا. نحن لا نطلب أي أموال :)
