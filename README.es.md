@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Sketchware-Pro.png" style="width: 30%;" />
+  <img src="assets/FuMod.png" style="width: 30%;" />
 </p>
 
 # Tarifa TC familiar S incluida
@@ -14,8 +14,8 @@ Para crear la aplicación, debes usar Gradle. Se recomienda encarecidamente util
 
 Hay dos variantes de construcción con características diferentes:
 
--   `minApi26:`Esta variante admite la exportación de AAB de proyectos y la compilación de código Java 1.8, 1.9, 10 y 11. Sin embargo, sólo funciona en Android 8.0 (O) y superior.
--   `minApi21:`Esta variante no puede producir AAB a partir de proyectos y solo puede compilar código Java 1.7, pero es compatible con Android 5 y superior.
+-   `minApi26:`Esta variante admite la exportación de AAB de proyectos y la compilación de código Java 1.8, 1.9, 10 y 11. Sin embargo, sólo funciona en Android 8.0 (O) y superiores.
+-   `minApi21:`Esta variante no puede producir AAB a partir de proyectos y solo puede compilar código Java 1.7, pero es compatible con Android 5 y superiores.
 
 Para seleccionar la variante de compilación adecuada en Android Studio, use la pestaña Variantes de compilación o use el comando de compilación de Gradle apropiado.
 
@@ -26,7 +26,7 @@ Para seleccionar la variante de compilación adecuada en Android Studio, use la 
 | `a.a.a.ProjectBuilder` | Ayudante para compilar un proyecto completo.                  |
 | `a.a.a.Ix`             | Responsable de generar AndroidManifest.xml                    |
 | `a.a.a.Jx`             | Genera código fuente de actividades.                          |
-| `a.a.a.Lx`             | Generates source code of components, such as listeners, etc.  |
+| `a.a.a.Lx`             | Genera código fuente de componentes, como oyentes, etc.       |
 | `a.a.a.Ox`             | Responsable de generar archivos XML de diseños.               |
 | `a.a.a.qq`             | Registro de dependencias de bibliotecas integradas.           |
 | `a.a.a.tq`             | Responsable de los cuestionarios del diálogo de compilación.  |
@@ -76,7 +76,7 @@ Ejemplos:
 
 ¡Gracias por contribuir a Sketchware Fu! Tus contribuciones ayudan a mantener vivo Sketchware Fu. Cada contribución aceptada se anotará en la actividad "Acerca de los modders". Inicialmente usaremos su nombre de GitHub y su imagen de perfil, pero, por supuesto, se pueden cambiar.
 
-## Discordia
+## Discord
 
 ¿Quieres charlar con nosotros, discutir cambios o simplemente pasar el rato? Tenemos un servidor Discord solo para eso.
 
@@ -84,7 +84,7 @@ Ejemplos:
 
 ## Descargo de responsabilidad
 
-Este mod no fue creado con ningún propósito dañino, como dañar Sketchware; todo lo contrario, en realidad. Fue creado para mantener vivo Sketchware por la comunidad y para la comunidad. Úselo a su propia discreción y considere convertirse en patrocinador de Patreon para apoyar a los desarrolladores. Desafortunadamente, otras formas de apoyarlos ya no funcionan, por lo que Patreon es la única opción disponible actualmente. Puedes encontrar su página de Patreon.[aquí](https://www.patreon.com/sketchware).
+Este mod no fue creado con fines dañinos, como dañar Sketchware; todo lo contrario, en realidad. Fue creado para mantener vivo Sketchware por la comunidad y para la comunidad. Úselo a su propia discreción y considere convertirse en patrocinador de Patreon para apoyar a los desarrolladores. Desafortunadamente, otras formas de apoyarlos ya no funcionan, por lo que Patreon es la única opción disponible actualmente. Puedes encontrar su página de Patreon.[aquí](https://www.patreon.com/sketchware).
 
 NO permitimos la publicación de Sketchware Fu tal como está, o con modificaciones, en Play Store ni en ninguna otra tienda de aplicaciones. Tenga en cuenta que este proyecto sigue siendo un mod. La modificación no autorizada de aplicaciones se considera ilegal y desaconsejamos dicho comportamiento.
 
