@@ -4,9 +4,7 @@
 
 # Logiciel de croquis Pro
 
-    <img src="https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg" alt="Android CI"/>
-
-[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro)
 
 Bienvenue dans Sketchware Pro ! Vous trouverez ici le code source de nombreuses classes de Sketchware Pro et, surtout, l'endroit où contribuer à Sketchware Pro.
 
@@ -84,7 +82,7 @@ Vous souhaitez discuter avec nous, discuter des changements ou simplement passer
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/kq39yhT4rX)](http://discord.gg/kq39yhT4rX)
 
-## Clause de non-responsabilité
+## Disclaimer
 
 Ce mod n'a pas été créé à des fins nuisibles, telles que nuire à Sketchware ; bien au contraire, en fait. Il a été conçu pour maintenir Sketchware en vie par la communauté, pour la communauté. Veuillez l'utiliser à votre propre discrétion et envisagez de devenir un bailleur de fonds Patreon pour soutenir les développeurs. Malheureusement, les autres moyens de les prendre en charge ne fonctionnent plus, Patreon est donc la seule option disponible actuellement. Vous pouvez trouver leur page Patreon[ici](https://www.patreon.com/sketchware).
 
