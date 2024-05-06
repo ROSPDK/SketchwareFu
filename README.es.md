@@ -4,7 +4,7 @@
 
 # Sketchware Pro
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 ¡Bienvenido a Sketchware Pro! Aquí encontrará el código fuente de muchas clases de Sketchware Pro y, lo más importante, el lugar para contribuir a Sketchware Pro.
 
@@ -14,7 +14,7 @@ Para crear la aplicación, debes usar Gradle. Se recomienda encarecidamente util
 
 Hay dos variantes de construcción con características diferentes:
 
--   `minApi26:`Esta variante admite la exportación de AAB de proyectos y la compilación de código Java 1.8, 1.9, 10 y 11. Sin embargo, sólo funciona en Android 8.0 (O) y superiores.
+-   `minApi26:`Esta variante admite la exportación de AAB de proyectos y la compilación de código Java 1.8, 1.9, 10 y 11. Sin embargo, sólo funciona en Android 8.0 (O) y superior.
 -   `minApi21:`Esta variante no puede producir AAB a partir de proyectos y solo puede compilar código Java 1.7, pero es compatible con Android 5 y superiores.
 
 Para seleccionar la variante de compilación adecuada en Android Studio, use la pestaña Variantes de compilación o use el comando de compilación de Gradle apropiado.
@@ -27,7 +27,7 @@ Para seleccionar la variante de compilación adecuada en Android Studio, use la 
 | `a.a.a.Ix`             | Responsable de generar AndroidManifest.xml                    |
 | `a.a.a.Jx`             | Genera código fuente de actividades.                          |
 | `a.a.a.Lx`             | Genera código fuente de componentes, como oyentes, etc.       |
-| `a.a.a.Ox`             | Responsable de generar archivos XML de diseños.               |
+| `a.a.a.Ox`             | Responsible for generating XML files of layouts               |
 | `a.a.a.qq`             | Registro de dependencias de bibliotecas integradas.           |
 | `a.a.a.tq`             | Responsable de los cuestionarios del diálogo de compilación.  |
 | `a.a.a.yq`             | Organiza las rutas de archivos de los proyectos de Sketchware |
@@ -84,7 +84,7 @@ Ejemplos:
 
 ## Descargo de responsabilidad
 
-Este mod no fue creado con fines dañinos, como dañar Sketchware; todo lo contrario, en realidad. Fue creado para mantener vivo Sketchware por la comunidad y para la comunidad. Úselo a su propia discreción y considere convertirse en patrocinador de Patreon para apoyar a los desarrolladores. Desafortunadamente, otras formas de apoyarlos ya no funcionan, por lo que Patreon es la única opción disponible actualmente. Puedes encontrar su página de Patreon.[aquí](https://www.patreon.com/sketchware).
+Este mod no fue creado con fines dañinos, como dañar Sketchware; En realidad, todo lo contrario. Fue creado para mantener vivo Sketchware por la comunidad y para la comunidad. Úselo a su propia discreción y considere convertirse en patrocinador de Patreon para apoyar a los desarrolladores. Desafortunadamente, otras formas de apoyarlos ya no funcionan, por lo que Patreon es la única opción disponible actualmente. Puedes encontrar su página de Patreon.[aquí](https://www.patreon.com/sketchware).
 
 NO permitimos publicar Sketchware Pro tal como está, o con modificaciones, en Play Store ni en ninguna otra tienda de aplicaciones. Tenga en cuenta que este proyecto sigue siendo un mod. La modificación no autorizada de aplicaciones se considera ilegal y desaconsejamos dicho comportamiento.
 
