@@ -4,7 +4,7 @@
 
 # स्केचवेयर प्रो
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro)
 
 स्केचवेयर प्रो में आपका स्वागत है! यहां आपको स्केचवेयर प्रो में कई कक्षाओं के स्रोत कोड और, सबसे महत्वपूर्ण बात, स्केचवेयर प्रो में योगदान करने का स्थान मिलेगा।
 
@@ -24,7 +24,7 @@
 | कक्षा                  | भूमिका                                                |
 | ---------------------- | ----------------------------------------------------- |
 | `a.a.a.ProjectBuilder` | संपूर्ण प्रोजेक्ट संकलित करने के लिए सहायक            |
-| `a.a.a.Ix`             | Responsible for generating AndroidManifest.xml        |
+| `a.a.a.Ix`             | AndroidManifest.xml जनरेट करने के लिए ज़िम्मेदार      |
 | `a.a.a.Jx`             | गतिविधियों का स्रोत कोड उत्पन्न करता है               |
 | `a.a.a.Lx`             | श्रोताओं आदि जैसे घटकों का स्रोत कोड उत्पन्न करता है। |
 | `a.a.a.Ox`             | लेआउट की XML फ़ाइलें बनाने के लिए ज़िम्मेदार          |
