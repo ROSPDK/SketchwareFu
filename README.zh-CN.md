@@ -2,11 +2,11 @@
   <img src="assets/Sketchware-Pro.png" style="width: 30%;" />
 </p>
 
-# 素描软件专业版
+# 包含 S 系列 TC 票价
 
 [![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
-欢迎使用 Sketchware Pro！在这里您可以找到 Sketchware Pro 中许多类的源代码，最重要的是，您可以在这里找到为 Sketchware Pro 做出贡献的地方。
+欢迎来到Sketchware Fu！在这里您可以找到 Sketchware Fu 中许多类的源代码，最重要的是，这是为 Sketchware Fu 做出贡献的地方。
 
 ## 构建应用程序
 
@@ -36,7 +36,7 @@
 
 ## 贡献
 
-如果您想为 Sketchware Pro 做出贡献，请按照以下步骤操作：
+如果您想为 Sketchware Fu 做出贡献，请按照以下步骤操作：
 
 1.  分叉这个存储库。
 2.  在您的分叉存储库中进行更改。
@@ -74,7 +74,7 @@
 
 ## 感谢您的贡献
 
-感谢您为 Sketchware Pro 做出贡献！您的贡献有助于让 Sketchware Pro 保持活力。每个接受的贡献都将记录在“关于 Modders”活动中。我们最初将使用您的 GitHub 名称和个人资料图片，但当然它们可以更改。
+感谢您对 Sketchware Fu 的贡献！您的贡献有助于让 Sketchware Fu 保持活力。每个接受的贡献都将记录在“关于 Modders”活动中。我们最初将使用您的 GitHub 名称和个人资料图片，但当然它们可以更改。
 
 ## 不和谐
 
@@ -86,6 +86,6 @@
 
 该模组并非出于任何有害目的而创建，例如损害 Sketchware；事实上，恰恰相反。它是为了让 Sketchware 保持活力而由社区为社区服务的。请自行决定使用它并考虑成为 Patreon 支持者以支持开发人员。不幸的是，其他支持他们的方法不再有效，因此 Patreon 是目前唯一可用的选择。你可以找到他们的 Patreon 页面[这里](https://www.patreon.com/sketchware).
 
-我们不允许在 Play 商店或任何其他应用商店上按原样或经过修改发布 Sketchware Pro。请记住，这个项目仍然是一个模组。未经授权的应用程序修改被视为非法，我们不鼓励此类行为。
+我们不允许在 Play 商店或任何其他应用商店上按原样或经过修改发布 Sketchware Fu。请记住，这个项目仍然是一个模组。未经授权的应用程序修改被视为非法，我们不鼓励此类行为。
 
 我们非常喜欢 Sketchware，并感谢 Sketchware 的开发人员创建了如此出色的应用程序。然而，我们已经很长时间没有收到更新了。这就是为什么我们决定通过创建这个完全免费的 Mod 来保持 Sketchware 的活力。我们不要求任何钱:)
