@@ -4,7 +4,7 @@
 
 # Logiciel de croquis Pro
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 Bienvenue dans Sketchware Pro ! Vous trouverez ici le code source de nombreuses classes de Sketchware Pro et, surtout, l'endroit où contribuer à Sketchware Pro.
 
@@ -32,7 +32,7 @@ Pour sélectionner la variante de build appropriée dans Android Studio, utilise
 | `a.a.a.tq`             | Responsable des quiz de la boîte de dialogue de compilation        |
 | `a.a.a.yq`             | Organise les chemins de fichiers des projets Sketchware            |
 
-> [!CONSEIL]Vous pouvez également vérifier le`mod`package, qui contient la majorité des modifications apportées par les contributeurs.
+> [!TIP]Vous pouvez également vérifier le`mod`package, qui contient la majorité des modifications apportées par les contributeurs.
 
 ## Contribuant
 
@@ -63,7 +63,7 @@ Lorsque vous apportez des modifications à un ou plusieurs fichiers, vous devez 
     -   `style:`pour les fonctionnalités et les mises à jour liées au style.
     -   `refactor:`pour refactoriser une section spécifique de la base de code.
     -   `test:`pour tout ce qui concerne les tests.
-    -   `docs:`pour tout ce qui concerne la documentation.
+    -   `docs:` for everything related to documentation.
     -   `chore:`pour la maintenance du code (vous pouvez également utiliser des emojis pour représenter les types de commit).
 
 Exemples:
