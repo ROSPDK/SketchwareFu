@@ -4,9 +4,7 @@
 
 # Sketchware Pro
 
-    <img src="https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg" alt="Android CI"/>
-
-[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro)
 
 Bem-vindo ao Sketchware Pro! Aqui você encontrará o código-fonte de muitas classes do Sketchware Pro e, o mais importante, o local para contribuir com o Sketchware Pro.
 
@@ -86,7 +84,7 @@ Quer conversar conosco, discutir mudanças ou simplesmente sair? Temos um servid
 
 ## Isenção de responsabilidade
 
-Este mod não foi criado para fins prejudiciais, como prejudicar o Sketchware; muito pelo contrário, na verdade. Foi feito para manter o Sketchware vivo pela comunidade para a comunidade. Use-o a seu critério e considere se tornar um patrocinador do Patreon para apoiar os desenvolvedores. Infelizmente, outras formas de apoiá-los não estão mais funcionando, então o Patreon é a única opção disponível atualmente. Você pode encontrar a página do Patreon[here](https://www.patreon.com/sketchware).
+Este mod não foi criado para fins prejudiciais, como prejudicar o Sketchware; muito pelo contrário, na verdade. Foi feito para manter o Sketchware vivo pela comunidade para a comunidade. Use-o a seu critério e considere se tornar um patrocinador do Patreon para apoiar os desenvolvedores. Infelizmente, outras formas de apoiá-los não estão mais funcionando, então o Patreon é a única opção disponível atualmente. Você pode encontrar a página do Patreon[aqui](https://www.patreon.com/sketchware).
 
 NÃO permitimos a publicação do Sketchware Pro como está, ou com modificações, na Play Store ou em qualquer outra app store. Tenha em mente que este projeto ainda é um mod. A modificação não autorizada de aplicativos é considerada ilegal e desencorajamos tal comportamento.
 
