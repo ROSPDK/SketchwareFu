@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/Sketchware-Pro.png" style="width: 30%;" />
+  <img src="assets/FuMod.png" style="width: 30%;" />
 </p>
 
 # 包含 S 系列 TC 票价
 
 [![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
-欢迎来到素描软件福！在这里您可以找到 Sketchware Fu 中许多类的源代码，最重要的是，这是为 Sketchware Fu 做出贡献的地方。
+欢迎来到Sketchware Fu！在这里您可以找到 Sketchware Fu 中许多类的源代码，最重要的是，这是为 Sketchware Fu 做出贡献的地方。
 
 ## 构建应用程序
 
@@ -32,7 +32,7 @@
 | `a.a.a.tq`             | 负责编译对话框的测验              |
 | `a.a.a.yq`             | 组织 Sketchware 项目的文件路径   |
 
-> [！提示!]您还可以检查`mod`包，其中包含大多数贡献者的更改。
+> [！提示!]您还可以检查`mod` package, which contains the majority of contributors' changes.
 
 ## 贡献
 
@@ -48,7 +48,7 @@
 
 ### 我们不太可能接受哪些改变
 
-大多数与用户界面（香草 Sketchware 中已存在的组件）相关的更改不太可能被接受。如果与设计相关的内容发生变化，理想情况下整个应用程序也应该遵循新的风格，这很有挑战性，尤其是对于 mods 来说。
+Most changes related to the user interface (components that already exist in vanilla Sketchware) are unlikely to be accepted. If something design-related gets changed, ideally the whole app should follow the new style too, which is challenging, especially for mods.
 
 > [！笔记!]与此同时，我们不接受主分支中的 UI 更改，但我们接受[重新设计分支](https://github.com/Sketchware-Pro/Sketchware-Pro/tree/material-redesign)因为我们正在积极开发 Sketchware Pro 的材料设计版本。
 
