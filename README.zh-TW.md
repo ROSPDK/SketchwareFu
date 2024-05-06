@@ -4,6 +4,8 @@
 
 # 素描軟體專業版
 
+    <img src="https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg" alt="Android CI"/>
+
 [![GitHub contributors](https://img.shields.io/github/contributors/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/Sketchware-Pro/Sketchware-Pro/releases)[![Repository Size](https://img.shields.io/github/repo-size/Sketchware-Pro/Sketchware-Pro)](https://github.com/Sketchware-Pro/Sketchware-Pro)
 
 歡迎使用 Sketchware Pro！在這裡您可以找到 Sketchware Pro 中許多類別的原始程式碼，最重要的是，您可以在這裡找到為 Sketchware Pro 做出貢獻的地方。
@@ -42,7 +44,7 @@
 2.  在您的分叉存儲庫中進行更改。
 3.  測試這些變更。
 4.  在此儲存庫中建立拉取請求。
-5.  您的拉取請求將由儲存庫成員審核並在接受後合併。
+5.  Your pull request will be reviewed by the repository members and merged if accepted.
 
 我們歡迎任何規模的貢獻，無論是主要功能還是錯誤修復，但請注意，所有貢獻都將經過徹底審查。
 
@@ -74,7 +76,7 @@
 
 ## 感謝您的貢獻
 
-感謝您為 Sketchware Pro 做出貢獻！您的貢獻有助於讓 Sketchware Pro 保持活力。每個接受的貢獻都將記錄在「關於 Modders」活動中。我們最初將使用您的 GitHub 名稱和個人資料圖片，但當然它們可以更改。
+感謝您對 Sketchware Pro 的貢獻！您的貢獻有助於讓 Sketchware Pro 保持活力。每個接受的貢獻都將記錄在「關於 Modders」活動中。我們最初將使用您的 GitHub 名稱和個人資料圖片，但當然它們可以更改。
 
 ## 不和諧
 
