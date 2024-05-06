@@ -4,7 +4,7 @@
 
 # स्केचवेयर प्रो
 
-[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/Sketchware-Pro/Sketchware-Pro/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
+[![Android CI](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml/badge.svg)](https://github.com/ROSPDK/SketchwareFu/actions/workflows/android.yml)[![GitHub contributors](https://img.shields.io/github/contributors/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/graphs/contributors)[![GitHub last commit](https://img.shields.io/github/last-commit/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu/commits/)[![Discord server stats](https://img.shields.io/discord/790686719753846785)](http://discord.gg/kq39yhT4rX)[![Total downloads](https://img.shields.io/github/downloads/ROSPDK/SketchwareFu/total)](https://github.com/ROSPDK/SketchwareFu/releases)[![Repository Size](https://img.shields.io/github/repo-size/ROSPDK/SketchwareFu)](https://github.com/ROSPDK/SketchwareFu)
 
 स्केचवेयर प्रो में आपका स्वागत है! यहां आपको स्केचवेयर प्रो में कई कक्षाओं के स्रोत कोड और, सबसे महत्वपूर्ण बात, स्केचवेयर प्रो में योगदान करने का स्थान मिलेगा।
 
@@ -14,7 +14,7 @@
 
 विभिन्न विशेषताओं के साथ दो बिल्ड वेरिएंट हैं:
 
--   `minApi26:`यह संस्करण परियोजनाओं से एएबी निर्यात करने और जावा 1.8, 1.9, 10 और 11 कोड संकलित करने का समर्थन करता है। हालाँकि, यह केवल Android 8.0 (O) और उससे ऊपर के संस्करण पर काम करता है।
+-   `minApi26:`यह संस्करण परियोजनाओं से एएबी निर्यात करने और जावा 1.8, 1.9, 10 और 11 कोड संकलित करने का समर्थन करता है। हालाँकि, यह केवल Android 8.0 (O) और इसके बाद के संस्करण पर काम करता है।
 -   `minApi21:`यह संस्करण परियोजनाओं से एएबी का उत्पादन नहीं कर सकता है और केवल जावा 1.7 कोड संकलित कर सकता है, लेकिन यह एंड्रॉइड 5 और इसके बाद के संस्करण का समर्थन करता है।
 
 एंड्रॉइड स्टूडियो में उपयुक्त बिल्ड वेरिएंट का चयन करने के लिए, बिल्ड वेरिएंट टैब का उपयोग करें या उपयुक्त ग्रैडल बिल्ड कमांड का उपयोग करें।
@@ -84,7 +84,7 @@
 
 ## अस्वीकरण
 
-यह मॉड किसी भी हानिकारक उद्देश्य के लिए नहीं बनाया गया था, जैसे स्केचवेयर को नुकसान पहुंचाना; वास्तव में, बिल्कुल विपरीत। इसे समुदाय द्वारा समुदाय के लिए स्केचवेयर को जीवित रखने के लिए बनाया गया था। कृपया इसे अपने विवेक से उपयोग करें और डेवलपर्स का समर्थन करने के लिए पैट्रियन समर्थक बनने पर विचार करें। दुर्भाग्य से, उनका समर्थन करने के अन्य तरीके अब काम नहीं कर रहे हैं, इसलिए पैट्रियन वर्तमान में एकमात्र उपलब्ध विकल्प है। आप उनका पैट्रियन पेज पा सकते हैं[यहाँ](https://www.patreon.com/sketchware).
+यह मॉड किसी हानिकारक उद्देश्य के लिए नहीं बनाया गया था, जैसे स्केचवेयर को नुकसान पहुँचाना; वास्तव में, बिल्कुल विपरीत। इसे समुदाय द्वारा समुदाय के लिए स्केचवेयर को जीवित रखने के लिए बनाया गया था। कृपया इसे अपने विवेक से उपयोग करें और डेवलपर्स का समर्थन करने के लिए पैट्रियन समर्थक बनने पर विचार करें। दुर्भाग्य से, उनका समर्थन करने के अन्य तरीके अब काम नहीं कर रहे हैं, इसलिए पैट्रियन वर्तमान में एकमात्र उपलब्ध विकल्प है। आप उनका पैट्रियन पेज पा सकते हैं[यहाँ](https://www.patreon.com/sketchware).
 
 हम स्केचवेयर प्रो को प्ले स्टोर या किसी अन्य ऐप स्टोर पर उसी रूप में या संशोधनों के साथ प्रकाशित करने की अनुमति नहीं देते हैं। ध्यान रखें कि यह प्रोजेक्ट अभी भी एक मॉड है। ऐप्स में अनधिकृत मोडिंग को अवैध माना जाता है और हम इस तरह के व्यवहार को हतोत्साहित करते हैं।
 
